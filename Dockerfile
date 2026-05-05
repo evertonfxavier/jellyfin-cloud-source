@@ -76,6 +76,14 @@ RUN apt-get update \
 # =============================================================================
 FROM debian:${OS_VERSION}-slim AS combined
 
+LABEL org.opencontainers.image.title="Jellyfin Cloud Source"
+LABEL org.opencontainers.image.description="Custom Jellyfin media server with cloud streaming support (Torrent via TorrServer, Google Drive, Mediafire)"
+LABEL org.opencontainers.image.authors="Everton Xavier <evertonfxavier>"
+LABEL org.opencontainers.image.url="https://github.com/evertonfxavier/jellyfin-cloud-source"
+LABEL org.opencontainers.image.source="https://github.com/evertonfxavier/jellyfin-cloud-source"
+LABEL org.opencontainers.image.licenses="GPL-2.0"
+LABEL org.opencontainers.image.vendor="evertonfxavier"
+
 ARG OS_VERSION
 ARG FFMPEG_PACKAGE
 ARG TARGETARCH

@@ -1,4 +1,4 @@
-# Jellyfin External Source
+# Jellyfin Cloud Source
 
 Custom [Jellyfin](https://jellyfin.org/) fork with cloud media source support — **Torrent (via TorrServer)**, **Google Drive**, and **Mediafire** — no local downloads required.
 
@@ -48,7 +48,33 @@ Custom [Jellyfin](https://jellyfin.org/) fork with cloud media source support �
 └── example/                # Deploy example using pre-built image
 ```
 
+## Docker Image
+
+Pre-built multi-arch image available on Docker Hub:
+
+```
+docker pull evertonxavier/jellyfin-cloud-source:latest
+```
+
+[![Docker Hub](https://img.shields.io/docker/pulls/evertonxavier/jellyfin-cloud-source)](https://hub.docker.com/r/evertonxavier/jellyfin-cloud-source)
+
+Platforms: `linux/amd64`, `linux/arm64`
+
 ## Quick Start
+
+### With pre-built image
+
+```bash
+docker run -d \
+  --name jellyfin \
+  -p 8096:8096 \
+  -p 8090:8090 \
+  -v jellyfin-config:/config \
+  -v jellyfin-cache:/cache \
+  evertonxavier/jellyfin-cloud-source:latest
+```
+
+Access: http://localhost:8096
 
 ### With Docker Compose (local build)
 
@@ -56,15 +82,6 @@ Custom [Jellyfin](https://jellyfin.org/) fork with cloud media source support �
 git clone --recurse-submodules git@github.com-personal:evertonfxavier/jellyfin-cloud-source.git
 cd jellyfin-cloud-source
 docker compose up -d --build
-```
-
-Access: http://localhost:8096
-
-### Using pre-built image
-
-```bash
-cd example
-docker compose up -d
 ```
 
 ## Local Development
