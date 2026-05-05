@@ -1,1 +1,0 @@
-{"StartTimeUtc":"2026-04-27T09:48:23.517105Z","EndTimeUtc":"2026-04-27T09:48:23.5265099Z","Status":"Completed","Name":"Transferir legendas em falta","Key":"DownloadSubtitles","Id":"2c66a88bca43e565d7f8099f825478f1"}

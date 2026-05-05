@@ -1,1 +1,0 @@
-{"StartTimeUtc":"2026-04-27T09:48:23.5154881Z","EndTimeUtc":"2026-04-27T09:48:23.5296769Z","Status":"Completed","Name":"Limpar o diret\u00F3rio de Transcode","Key":"DeleteTranscodeFiles","Id":"7d8088c10902f1bf4072ded42437bcfb"}

@@ -1,1 +1,0 @@
-{"StartTimeUtc":"2026-04-27T04:10:38.4632942Z","EndTimeUtc":"2026-04-27T04:10:38.5324225Z","Status":"Completed","Name":"Gerar miniaturas de v\u00EDdeo","Key":"RefreshTrickplayImages","Id":"64f5f44cd30dc273cb9890205473bbcc"}

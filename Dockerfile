@@ -19,7 +19,7 @@ RUN apk add --no-cache \
     automake libtool gcc musl-dev nasm python3 git
 
 WORKDIR /src
-COPY jellyfin-web .
+COPY submodules/jellyfin-web .
 
 RUN npm ci --no-audit --unsafe-perm \
     && npm run build:production \
@@ -34,7 +34,7 @@ ARG DOTNET_VERSION
 ARG DOTNET_ARCH
 
 WORKDIR /src
-COPY jellyfin .
+COPY submodules/jellyfin .
 
 ENV DOTNET_CLI_TELEMETRY_OPTOUT=1
 

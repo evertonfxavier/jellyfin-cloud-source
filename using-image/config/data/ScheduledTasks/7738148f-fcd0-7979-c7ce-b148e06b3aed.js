@@ -1,1 +1,0 @@
-{"StartTimeUtc":"2026-04-27T09:49:24.5467234Z","EndTimeUtc":"2026-04-27T09:49:27.3275629Z","Status":"Completed","Name":"Analisar mediateca","Key":"RefreshLibrary","Id":"7738148ffcd07979c7ceb148e06b3aed"}

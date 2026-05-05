@@ -1,8 +1,8 @@
 [submodule "jellyfin"]
-	path = jellyfin
+	path = submodules/jellyfin
 	url = git@github.com-personal:evertonfxavier/jellyfin-server.git
 	branch = master
 [submodule "jellyfin-web"]
-	path = jellyfin-web
+	path = submodules/jellyfin-web
 	url = git@github.com-personal:evertonfxavier/jellyfin-web.git
 	branch = master
