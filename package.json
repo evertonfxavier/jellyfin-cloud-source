@@ -1,0 +1,7 @@
+{
+  "name": "jellyfin-external-source",
+  "private": true,
+  "scripts": {
+    "build": "docker buildx build --platform linux/amd64,linux/arm64 -t evertonxavier/jellyfin-external-source:latest --push ."
+  }
+}

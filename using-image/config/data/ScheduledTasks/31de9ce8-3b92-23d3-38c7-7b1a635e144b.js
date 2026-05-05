@@ -1,0 +1,1 @@
+{"StartTimeUtc":"2026-04-27T09:51:26.612646Z","EndTimeUtc":"2026-04-27T09:51:26.7413122Z","Status":"Completed","Name":"Otimizar base de dados","Key":"OptimizeDatabaseTask","Id":"31de9ce83b9223d338c77b1a635e144b"}

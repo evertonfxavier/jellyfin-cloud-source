@@ -1,0 +1,46 @@
+name: jellyfin
+services:
+  jellyfin:
+    cpu_shares: 512
+    container_name: jellyfin
+    deploy:
+      resources:
+        limits:
+          memory: 1024M
+        reservations:
+          memory: "268435456" # 256MB
+    environment:
+      - PGID=1000
+      - PUID=1000
+      - TZ=Etc/UTC
+    hostname: jellyfin
+    image: evertonxavier/jellyfin-external-source:latest
+    ports:
+      - target: 8096
+        published: "8096"
+        protocol: tcp
+      - target: 8920
+        published: "8921"
+        protocol: tcp
+      - target: 7359
+        published: "7360"
+        protocol: tcp
+      - target: 1900
+        published: "1902"
+        protocol: tcp
+      - target: 8090
+        published: "8090"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: ./config
+        target: /config
+      - type: bind
+        source: ./cache
+        target: /cache
+      - type: bind
+        source: ./media
+        target: /Media
+    network_mode: bridge
+    privileged: false

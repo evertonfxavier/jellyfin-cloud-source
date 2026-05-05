@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<tvshow>
+  <plot>A série se passa no ano de 2122 e é centralizada nos Medabots, robôs com inteligência artificial cuja finalidade é servir aos seus donos humanos. Ikki é incapaz de comprar um Medabots e seus pais se recusam a comprar-lhe um. No entanto, ele consegue arranjar dinheiro suficiente para comprar um modelo ultrapassado, e com um pouco de sorte, ele encontra uma “Medalha” jogada em um rio, daí surge Metabee (um Medabot obsoleto do tipo besouro).</plot>
+  <outline>A série se passa no ano de 2122 e é centralizada nos Medabots, robôs com inteligência artificial cuja finalidade é servir aos seus donos humanos. Ikki é incapaz de comprar um Medabots e seus pais se recusam a comprar-lhe um. No entanto, ele consegue arranjar dinheiro suficiente para comprar um modelo ultrapassado, e com um pouco de sorte, ele encontra uma “Medalha” jogada em um rio, daí surge Metabee (um Medabot obsoleto do tipo besouro).</outline>
+  <lockdata>false</lockdata>
+  <dateadded>2026-04-20 14:02:00</dateadded>
+  <title>Medabots</title>
+  <originaltitle>メダロット</originaltitle>
+  <rating>8.3</rating>
+  <year>1999</year>
+  <mpaa>BR-L</mpaa>
+  <imdb_id>tt0293731</imdb_id>
+  <tmdbid>11235</tmdbid>
+  <premiered>1999-07-02</premiered>
+  <releasedate>1999-07-02</releasedate>
+  <enddate>2001-03-30</enddate>
+  <runtime>23</runtime>
+  <genre>Action &amp; Adventure</genre>
+  <genre>Animação</genre>
+  <genre>Comédia</genre>
+  <genre>Kids</genre>
+  <genre>Sci-Fi &amp; Fantasy</genre>
+  <studio>TV Tokyo</studio>
+  <tag>anime</tag>
+  <tag>artificial intelligence (a.i.)</tag>
+  <tag>based on video game</tag>
+  <tag>beetle</tag>
+  <tag>mecha</tag>
+  <tag>medal</tag>
+  <tag>proxy battle</tag>
+  <tag>robots</tag>
+  <tag>shounen</tag>
+  <tvdbid>76906</tvdbid>
+  <art>
+    <poster>/config/metadata/library/83/83b6193c4b96861efb570ffdb00badcc/poster.jpg</poster>
+    <fanart>/config/metadata/library/83/83b6193c4b96861efb570ffdb00badcc/backdrop.jpg</fanart>
+  </art>
+  <actor>
+    <name>山崎みちる</name>
+    <role>Ikki Tenryou (voice)</role>
+    <type>Actor</type>
+    <sortorder>0</sortorder>
+    <thumb>/config/metadata/People/山/山崎みちる/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>竹内順子</name>
+    <role>Metabee (voice)</role>
+    <type>Actor</type>
+    <sortorder>1</sortorder>
+    <thumb>/config/metadata/People/竹/竹内順子/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>仙台エリ</name>
+    <role>Arika Amazake (voice)</role>
+    <type>Actor</type>
+    <sortorder>2</sortorder>
+    <thumb>/config/metadata/People/仙/仙台エリ/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Masami Suzuki</name>
+    <role>Brass (voice)</role>
+    <type>Actor</type>
+    <sortorder>3</sortorder>
+    <thumb>/config/metadata/People/M/Masami Suzuki/folder.jpg</thumb>
+  </actor>
+  <id>76906</id>
+  <episodeguide>
+    <url cache="76906.xml">http://www.thetvdb.com/api/1D62F2F90030C444/series/76906/all/pt-br.zip</url>
+  </episodeguide>
+  <season>-1</season>
+  <episode>-1</episode>
+  <status>Ended</status>
+</tvshow>

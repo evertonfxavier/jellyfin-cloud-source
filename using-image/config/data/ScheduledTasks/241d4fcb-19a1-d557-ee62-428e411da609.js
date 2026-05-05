@@ -1,0 +1,1 @@
+{"StartTimeUtc":"2026-04-27T09:48:23.5167503Z","EndTimeUtc":"2026-04-27T09:48:23.8430071Z","Status":"Completed","Name":"Limpar Diret\u00F3rio de Cache","Key":"DeleteCacheFiles","Id":"241d4fcb19a1d557ee62428e411da609"}

@@ -1,0 +1,45 @@
+[2026-04-27 03:50:25.745 +00:00] [INF] [31] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2026-04-27 03:50:25.888 +00:00] [INF] [31] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-04-27 03:50:25.892 +00:00] [INF] [31] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Otimizar base de dados" Completed after 0 minute(s) and 0 seconds
+[2026-04-27 04:10:38.532 +00:00] [INF] [177] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Gerar miniaturas de vídeo" Completed after 0 minute(s) and 0 seconds
+[2026-04-27 04:10:39.469 +00:00] [INF] [87] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Gerar miniaturas de vídeo" set to fire at 2026-04-28 03:00:00.000 +00:00, which is 22:49:20.5310106 from now.
+[2026-04-27 09:48:23.526 +00:00] [INF] [174] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Transferir legendas em falta" Completed after 0 minute(s) and 0 seconds
+[2026-04-27 09:48:23.529 +00:00] [INF] [173] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Limpar o diretório de Transcode" Completed after 0 minute(s) and 0 seconds
+[2026-04-27 09:48:23.601 +00:00] [INF] [160] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Limpar diretório de logs" Completed after 0 minute(s) and 0 seconds
+[2026-04-27 09:48:23.630 +00:00] [INF] [70] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2026-04-27 09:48:23.663 +00:00] [INF] [74] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Normalização de áudio" Completed after 0 minute(s) and 0 seconds
+[2026-04-27 09:48:23.678 +00:00] [INF] [66] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Transferir letra em falta" Completed after 0 minute(s) and 0 seconds
+[2026-04-27 09:48:23.843 +00:00] [INF] [158] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Limpar Diretório de Cache" Completed after 0 minute(s) and 0 seconds
+[2026-04-27 09:48:25.741 +00:00] [INF] [158] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Atualizar Plugins" Completed after 0 minute(s) and 2 seconds
+[2026-04-27 09:48:26.658 +00:00] [INF] [158] Jellyfin.LiveTv.Guide.GuideManager: Refreshing guide with 7 days of guide data
+[2026-04-27 09:48:26.666 +00:00] [INF] [158] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2026-04-27 09:49:24.547 +00:00] [INF] [181] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/cache/cloudsources/torrent/888d118d97d850ad7931e4aec60d524d8e5924a0d51af8397c0ae52060d4e9e3/content"
+[2026-04-27 09:49:24.547 +00:00] [INF] [181] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/cache/cloudsources/torrent/5d4d2c2bd6e88c146fa6345a059113a2b7a28cc1972230e462b44179c691dec0/content"
+[2026-04-27 09:49:24.547 +00:00] [INF] [181] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/cache/cloudsources/http-stream/06f98ca33ccf776e4f7162a4502f04d133d593a5b3bef7dca7b3a62431129f78/content"
+[2026-04-27 09:49:24.548 +00:00] [INF] [181] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-04-27 09:49:24.593 +00:00] [WRN] [181] MediaBrowser.Controller.Entities.BaseItem: Library folder "/Media" is inaccessible or empty, skipping
+[2026-04-27 09:49:24.602 +00:00] [WRN] [181] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-04-27 09:49:24.636 +00:00] [INF] [163] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Analisar segmentos de multimédia" Completed after 0 minute(s) and 0 seconds
+[2026-04-27 09:49:24.652 +00:00] [WRN] [186] MediaBrowser.Controller.Entities.BaseItem: Library folder "/Media" is inaccessible or empty, skipping
+[2026-04-27 09:49:24.655 +00:00] [WRN] [186] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-04-27 09:49:27.327 +00:00] [INF] [163] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Analisar mediateca" Completed after 0 minute(s) and 2 seconds
+[2026-04-27 09:49:27.340 +00:00] [INF] [61] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/cache/cloudsources/torrent/5d4d2c2bd6e88c146fa6345a059113a2b7a28cc1972230e462b44179c691dec0/content"
+[2026-04-27 09:49:27.340 +00:00] [INF] [188] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/cache/cloudsources/torrent/888d118d97d850ad7931e4aec60d524d8e5924a0d51af8397c0ae52060d4e9e3/content"
+[2026-04-27 09:49:27.340 +00:00] [INF] [186] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/cache/cloudsources/http-stream/06f98ca33ccf776e4f7162a4502f04d133d593a5b3bef7dca7b3a62431129f78/content"
+[2026-04-27 09:51:26.612 +00:00] [INF] [174] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2026-04-27 09:51:26.741 +00:00] [INF] [174] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-04-27 09:51:26.741 +00:00] [INF] [174] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Otimizar base de dados" Completed after 0 minute(s) and 0 seconds
+[2026-04-27 10:31:24.363 +00:00] [INF] [92] Emby.Server.Implementations.Chapters.ChapterManager: Skipping chapter image extraction for "Lilo & Stitch" as the average chapter duration 0 was lower than the minimum threshold 10000000
+[2026-04-27 10:31:24.363 +00:00] [INF] [92] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extrair Imagens do Capítulo" Completed after 0 minute(s) and 0 seconds
+[2026-04-27 10:31:25.309 +00:00] [INF] [56] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extrair Imagens do Capítulo" set to fire at 2026-04-28 02:00:00.000 +00:00, which is 15:28:34.6901890 from now.
+[2026-04-27 11:02:56.145 +00:00] [INF] [84] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2026-04-27 11:02:56.171 +00:00] [INF] [190] Emby.Server.Implementations.EntryPoints.TorrServerHost: Stopping TorrServer (PID 26)...
+[2026-04-27 11:02:56.199 +00:00] [INF] [24] Emby.Server.Implementations.EntryPoints.TorrServerHost: TorrServer stopped.
+[2026-04-27 11:02:56.208 +00:00] [INF] [190] Main: Running query planner optimizations in the database... This might take a while
+[2026-04-27 11:02:56.259 +00:00] [INF] [24] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/cache/cloudsources/torrent/888d118d97d850ad7931e4aec60d524d8e5924a0d51af8397c0ae52060d4e9e3/content"
+[2026-04-27 11:02:56.259 +00:00] [INF] [24] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/cache/cloudsources/torrent/5d4d2c2bd6e88c146fa6345a059113a2b7a28cc1972230e462b44179c691dec0/content"
+[2026-04-27 11:02:56.259 +00:00] [INF] [24] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/cache/cloudsources/http-stream/06f98ca33ccf776e4f7162a4502f04d133d593a5b3bef7dca7b3a62431129f78/content"
+[2026-04-27 11:02:56.265 +00:00] [INF] [190] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2026-04-27 11:02:56.265 +00:00] [INF] [190] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2026-04-27 11:02:56.266 +00:00] [INF] [190] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2026-04-27 11:02:56.266 +00:00] [INF] [190] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"

@@ -1,0 +1,1 @@
+{"StartTimeUtc":"2026-04-27T09:49:24.54686Z","EndTimeUtc":"2026-04-27T09:49:24.6366952Z","Status":"Completed","Name":"Analisar segmentos de multim\u00E9dia","Key":"TaskExtractMediaSegments","Id":"f861734dd71b37f9482b52a820e39013"}

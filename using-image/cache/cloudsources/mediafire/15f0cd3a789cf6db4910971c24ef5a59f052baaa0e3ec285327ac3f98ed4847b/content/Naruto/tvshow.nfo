@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<tvshow>
+  <plot>Momentos antes do nascimento de Naruto Uzumaki, um enorme demônio conhecido como o Kyuubi, a Raposa de Nove Caudas, atacou o vilarejo da folha oculta Konoha, causando destruição. Para pôr fim à devastação de Kyuubi, o líder da aldeia, o quarto Hokage, sacrificou sua vida e selou o monstruoso animal dentro do recém-nascido Naruto. Agora, Naruto é um ninja hiperativo e cabeça dura que ainda vivem em Konoha. Evitado pelos demais habitantes por causa da Kyuubi dentro dele, Naruto se esforça para encontrar seu lugar na aldeia, enquanto o seu ardente desejo de se tornar o Hokage de Konoha o leva a conhecer alguns grandes novos amigos, e também alguns inimigos mortais.</plot>
+  <outline>Momentos antes do nascimento de Naruto Uzumaki, um enorme demônio conhecido como o Kyuubi, a Raposa de Nove Caudas, atacou o vilarejo da folha oculta Konoha, causando destruição. Para pôr fim à devastação de Kyuubi, o líder da aldeia, o quarto Hokage, sacrificou sua vida e selou o monstruoso animal dentro do recém-nascido Naruto. Agora, Naruto é um ninja hiperativo e cabeça dura que ainda vivem em Konoha. Evitado pelos demais habitantes por causa da Kyuubi dentro dele, Naruto se esforça para encontrar seu lugar na aldeia, enquanto o seu ardente desejo de se tornar o Hokage de Konoha o leva a conhecer alguns grandes novos amigos, e também alguns inimigos mortais.</outline>
+  <lockdata>false</lockdata>
+  <dateadded>2026-04-19 03:04:01</dateadded>
+  <title>Naruto</title>
+  <originaltitle>ナルト</originaltitle>
+  <rating>8.362</rating>
+  <year>2002</year>
+  <mpaa>BR-10</mpaa>
+  <imdb_id>tt0409591</imdb_id>
+  <tmdbid>46260</tmdbid>
+  <premiered>2002-10-03</premiered>
+  <releasedate>2002-10-03</releasedate>
+  <enddate>2007-02-08</enddate>
+  <runtime>24</runtime>
+  <genre>Action &amp; Adventure</genre>
+  <genre>Animação</genre>
+  <genre>Sci-Fi &amp; Fantasy</genre>
+  <studio />
+  <studio>TV Tokyo</studio>
+  <tag>adventure</tag>
+  <tag>angst</tag>
+  <tag>anime</tag>
+  <tag>based on manga</tag>
+  <tag>dead parents</tag>
+  <tag>fantasy</tag>
+  <tag>hero</tag>
+  <tag>japanese mythology</tag>
+  <tag>martial arts</tag>
+  <tag>ninja</tag>
+  <tag>ninja warrior</tag>
+  <tag>orphan</tag>
+  <tag>rivalry</tag>
+  <tag>shounen</tag>
+  <tag>super power</tag>
+  <tag>tragic past</tag>
+  <tag>warrior</tag>
+  <tvrageid>4620</tvrageid>
+  <tvdbid>78857</tvdbid>
+  <art>
+    <poster>/config/metadata/library/06/0648552f66d69f735f0b2470df0fe9fd/poster.jpg</poster>
+    <fanart>/config/metadata/library/06/0648552f66d69f735f0b2470df0fe9fd/backdrop.jpg</fanart>
+  </art>
+  <id>78857</id>
+  <episodeguide>
+    <url cache="78857.xml">http://www.thetvdb.com/api/1D62F2F90030C444/series/78857/all/pt-br.zip</url>
+  </episodeguide>
+  <season>-1</season>
+  <episode>-1</episode>
+  <status>Ended</status>
+</tvshow>

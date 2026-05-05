@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<movie>
+  <plot>O Avatar Aang, o último mestre do ar do mundo, toma conhecimento de um poder antigo que poderia salvar sua cultura da extinção. Com a ajuda de seus amigos, ele embarca em uma busca global para encontrá-lo antes que caia em mãos erradas e ameace destruir a paz que eles sacrificaram tudo para alcançar.</plot>
+  <lockdata>false</lockdata>
+  <dateadded>2026-04-19 12:48:14</dateadded>
+  <title>A Lenda de Aang: O Último Mestre do Ar</title>
+  <originaltitle>Avatar: Aang, The Last Airbender</originaltitle>
+  <director>Lauren Montgomery</director>
+  <writer>Christopher L. Yost</writer>
+  <writer>Tim Hedrick</writer>
+  <credits>Christopher L. Yost</credits>
+  <credits>Tim Hedrick</credits>
+  <rating>0</rating>
+  <year>2026</year>
+  <mpaa>BR-10</mpaa>
+  <collectionnumber>1136366</collectionnumber>
+  <imdbid>tt18259538</imdbid>
+  <tmdbid>980431</tmdbid>
+  <premiered>2026-10-09</premiered>
+  <releasedate>2026-10-09</releasedate>
+  <runtime>99</runtime>
+  <country>Australia</country>
+  <country>South Korea</country>
+  <country>United States of America</country>
+  <genre>Ação</genre>
+  <genre>Animação</genre>
+  <genre>Aventura</genre>
+  <genre>Fantasia</genre>
+  <studio />
+  <studio>Avatar Studios</studio>
+  <studio>Flying Bark Productions</studio>
+  <studio>Nickelodeon Movies</studio>
+  <studio>Paramount Pictures</studio>
+  <studio>Studio Mir</studio>
+  <tag>based on tv series</tag>
+  <tag>cultural identity</tag>
+  <tag>extinction</tag>
+  <tag>martial arts</tag>
+  <art>
+    <poster>/cache/cloudsources/torrent/5d4d2c2bd6e88c146fa6345a059113a2b7a28cc1972230e462b44179c691dec0/content/The+Legend+of+Aang:+The+Last+Airbender+(2026)+[1080p]+[WEBRip]+[+UIndex.org+]/folder.jpg</poster>
+    <fanart>/cache/cloudsources/torrent/5d4d2c2bd6e88c146fa6345a059113a2b7a28cc1972230e462b44179c691dec0/content/The+Legend+of+Aang:+The+Last+Airbender+(2026)+[1080p]+[WEBRip]+[+UIndex.org+]/backdrop.jpg</fanart>
+  </art>
+  <actor>
+    <name>Bryan Konietzko</name>
+    <role>Producer</role>
+    <type>Producer</type>
+    <thumb>/config/metadata/People/B/Bryan Konietzko/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Dagan Potter</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Eric Nam</name>
+    <role>Aang (voice)</role>
+    <type>Actor</type>
+    <sortorder>0</sortorder>
+    <thumb>/config/metadata/People/E/Eric Nam/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Latifa Ouaou</name>
+    <role>Producer</role>
+    <type>Producer</type>
+    <thumb>/config/metadata/People/L/Latifa Ouaou/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Maryann Garger</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Michael Dante DiMartino</name>
+    <role>Producer</role>
+    <type>Producer</type>
+    <thumb>/config/metadata/People/M/Michael Dante DiMartino/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Dave Bautista</name>
+    <role>Tagah (voice)</role>
+    <type>Actor</type>
+    <sortorder>1</sortorder>
+    <thumb>/config/metadata/People/D/Dave Bautista/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Jessica Matten</name>
+    <role>Katara (voice)</role>
+    <type>Actor</type>
+    <sortorder>2</sortorder>
+    <thumb>/config/metadata/People/J/Jessica Matten/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Román Zaragoza</name>
+    <role>Sokka (voice)</role>
+    <type>Actor</type>
+    <sortorder>3</sortorder>
+    <thumb>/config/metadata/People/R/Román Zaragoza/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Steven Yeun</name>
+    <role>Zuko (voice)</role>
+    <type>Actor</type>
+    <sortorder>4</sortorder>
+    <thumb>/config/metadata/People/S/Steven Yeun/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Dionne Quan</name>
+    <role>Toph (voice)</role>
+    <type>Actor</type>
+    <sortorder>5</sortorder>
+    <thumb>/config/metadata/People/D/Dionne Quan/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Dee Bradley Baker</name>
+    <role>Appa / Momo (voice)</role>
+    <type>Actor</type>
+    <sortorder>6</sortorder>
+    <thumb>/config/metadata/People/D/Dee Bradley Baker/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Freida Pinto</name>
+    <role>Avatar Sonam (voice)</role>
+    <type>Actor</type>
+    <sortorder>7</sortorder>
+    <thumb>/config/metadata/People/F/Freida Pinto/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Ke Huy Quan</name>
+    <role>Avatar Xian (voice)</role>
+    <type>Actor</type>
+    <sortorder>8</sortorder>
+    <thumb>/config/metadata/People/K/Ke Huy Quan/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Taika Waititi</name>
+    <role>Gorillavark (voice)</role>
+    <type>Actor</type>
+    <sortorder>9</sortorder>
+    <thumb>/config/metadata/People/T/Taika Waititi/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Geraldine Viswanathan</name>
+    <role>Kallik (voice)</role>
+    <type>Actor</type>
+    <sortorder>10</sortorder>
+    <thumb>/config/metadata/People/G/Geraldine Viswanathan/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Peta Sergeant</name>
+    <role>Jie (voice)</role>
+    <type>Actor</type>
+    <sortorder>11</sortorder>
+    <thumb>/config/metadata/People/P/Peta Sergeant/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Jonathan Ohye</name>
+    <role>Yuddah (voice)</role>
+    <type>Actor</type>
+    <sortorder>12</sortorder>
+    <thumb>/config/metadata/People/J/Jonathan Ohye/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Vic Chao</name>
+    <role>Hong (voice)</role>
+    <type>Actor</type>
+    <sortorder>13</sortorder>
+    <thumb>/config/metadata/People/V/Vic Chao/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>François Chau</name>
+    <role>Monk Gyatso (voice)</role>
+    <type>Actor</type>
+    <sortorder>14</sortorder>
+    <thumb>/config/metadata/People/F/François Chau/folder.jpg</thumb>
+  </actor>
+  <id>tt18259538</id>
+  <set>
+    <name>Avatar: The Last Airbender - Collection</name>
+  </set>
+  <fileinfo>
+    <streamdetails>
+      <subtitle>
+        <codec>subrip</codec>
+        <micodec>subrip</micodec>
+        <width>0</width>
+        <height>0</height>
+        <language>pt-br</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>True</forced>
+      </subtitle>
+      <subtitle>
+        <codec>subrip</codec>
+        <micodec>subrip</micodec>
+        <width>0</width>
+        <height>0</height>
+        <language>pt-br</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <video>
+        <codec>h264</codec>
+        <micodec>h264</micodec>
+        <bitrate>2249858</bitrate>
+        <width>1920</width>
+        <height>804</height>
+        <aspect>2.40:1</aspect>
+        <aspectratio>2.40:1</aspectratio>
+        <framerate>23.976025</framerate>
+        <language>und</language>
+        <scantype>progressive</scantype>
+        <default>True</default>
+        <forced>False</forced>
+        <duration>98</duration>
+        <durationinseconds>5931</durationinseconds>
+      </video>
+      <audio>
+        <codec>aac</codec>
+        <micodec>aac</micodec>
+        <bitrate>127785</bitrate>
+        <language>und</language>
+        <scantype>progressive</scantype>
+        <channels>2</channels>
+        <samplingrate>48000</samplingrate>
+        <default>True</default>
+        <forced>False</forced>
+      </audio>
+    </streamdetails>
+  </fileinfo>
+</movie>

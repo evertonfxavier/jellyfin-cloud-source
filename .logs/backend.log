@@ -1,0 +1,156 @@
+Usando as configurações de inicialização de Jellyfin.Server/Properties/launchSettings.json...
+[00:20:04.577] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: /Users/everton/Library/Application Support/jellyfin/cache
+[00:20:04.839] [INF] [9] Jellyfin.Server.ServerSetupApp.SetupServer: Kestrel is listening on 0.0.0.0
+[00:20:04.852] [WRN] [9] Microsoft.AspNetCore.Server.Kestrel: Overriding address(es) 'http://localhost:8096'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+[00:20:04.856] [INF] [9] Main: Jellyfin version: 10.11.8
+[00:20:04.858] [INF] [9] Main: Environment Variables: ["[DOTNET_ROOT_ARM64, /usr/local/share/dotnet]", "[DOTNET_ROOT, /usr/local/share/dotnet]", "[ASPNETCORE_URLS, http://localhost:8096]", "[ASPNETCORE_ENVIRONMENT, Development]", "[JELLYFIN_LOG_DIR, /Users/everton/Library/Application Support/jellyfin/log]", "[DOTNET_LAUNCH_PROFILE, Jellyfin.Server]"]
+[00:20:04.860] [INF] [9] Main: Arguments: ["/Users/everton/personal/jellyfin/jellyfin/Jellyfin.Server/bin/Debug/net9.0/jellyfin.dll", "--webdir", "/Users/everton/personal/jellyfin/jellyfin-web/dist"]
+[00:20:04.860] [INF] [9] Main: Operating system: Darwin 25.4.0 Darwin Kernel Version 25.4.0: Thu Mar 19 19:31:09 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T8132
+[00:20:04.860] [INF] [9] Main: Architecture: Arm64
+[00:20:04.860] [INF] [9] Main: 64-Bit Process: True
+[00:20:04.860] [INF] [9] Main: User Interactive: True
+[00:20:04.860] [INF] [9] Main: Processor count: 10
+[00:20:04.860] [INF] [9] Main: Program data path: /Users/everton/Library/Application Support/jellyfin
+[00:20:04.860] [INF] [9] Main: Log directory path: /Users/everton/Library/Application Support/jellyfin/log
+[00:20:04.860] [INF] [9] Main: Config directory path: /Users/everton/Library/Application Support/jellyfin/config
+[00:20:04.860] [INF] [9] Main: Cache path: /Users/everton/Library/Application Support/jellyfin/cache
+[00:20:04.860] [INF] [9] Main: Temp directory path: /var/folders/l3/6vlczrx96jq785s09d_33cq00000gp/T/jellyfin
+[00:20:04.860] [INF] [9] Main: Web resources path: /Users/everton/personal/jellyfin/jellyfin-web/dist
+[00:20:04.860] [INF] [9] Main: Application directory: /Users/everton/personal/jellyfin/jellyfin/Jellyfin.Server/bin/Debug/net9.0/
+[00:20:04.870] [INF] [9] Jellyfin.Server.Startup: Storage path `/Users/everton/Library/Application Support/jellyfin/data` (Fixed) successfully checked with 163.3GiB free which is over the minimum of 2GiB.
+[00:20:04.870] [INF] [9] Jellyfin.Server.Startup: Storage path `/Users/everton/Library/Application Support/jellyfin/cache` (Fixed) successfully checked with 163.3GiB free which is over the minimum of 2GiB.
+[00:20:04.870] [INF] [9] Jellyfin.Server.Startup: Storage path `/Users/everton/Library/Application Support/jellyfin` (Fixed) successfully checked with 163.3GiB free which is over the minimum of 2GiB.
+[00:20:04.873] [INF] [9] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: /Users/everton/Library/Application Support/jellyfin/cache
+[00:20:04.922] [INF] [9] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: Data Source="/Users/everton/Library/Application Support/jellyfin/data/jellyfin.db";Cache=Default;Default Timeout=30;Pooling=True
+[00:20:04.928] [INF] [9] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+
+[00:20:04.928] [INF] [9] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[00:20:04.954] [INF] [9] Jellyfin.Server.Migrations.JellyfinMigrationService: Initialise Migration service.
+[00:20:05.714] [INF] [9] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage PreInitialisation.
+[00:20:05.723] [INF] [9] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: /Users/everton/Library/Application Support/jellyfin/cache
+[00:20:05.816] [INF] [9] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[00:20:05.857] [INF] [9] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[00:20:05.857] [INF] [9] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[00:20:05.857] [INF] [9] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[00:20:05.859] [INF] [9] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.20.10.2"]
+[00:20:05.859] [INF] [9] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[00:20:05.859] [INF] [9] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is Allowlist
+[00:20:05.859] [INF] [9] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[00:20:05.994] [INF] [9] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: Data Source="/Users/everton/Library/Application Support/jellyfin/data/jellyfin.db";Cache=Default;Default Timeout=30;Pooling=True
+[00:20:05.994] [INF] [9] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+
+[00:20:05.994] [INF] [9] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[00:20:05.997] [INF] [9] Main: Prepare system for possible migrations
+[00:20:06.023] [INF] [9] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage CoreInitialisation.
+[00:20:06.527] [INF] [9] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: TMDb 10.11.8.0
+[00:20:06.527] [INF] [9] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: Studio Images 10.11.8.0
+[00:20:06.528] [INF] [9] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: OMDb 10.11.8.0
+[00:20:06.538] [INF] [9] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: MusicBrainz 10.11.8.0
+[00:20:06.538] [INF] [9] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: AudioDB 10.11.8.0
+[00:20:06.586] [INF] [9] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage AppInitialisation.
+[00:20:06.629] [INF] [10] Main: Kestrel is listening on 0.0.0.0
+[00:20:06.972] [INF] [13] Emby.Server.Implementations.EntryPoints.TorrServerHost: Starting TorrServer from /Users/everton/personal/jellyfin/jellyfin/tools/TorrServer with data path /Users/everton/Library/Application Support/jellyfin/data/torrserver
+[00:20:07.064] [INF] [13] Emby.Server.Implementations.EntryPoints.TorrServerHost: TorrServer started with PID 3685
+[00:20:08.075] [INF] [13] Emby.Server.Implementations.EntryPoints.TorrServerHost: TorrServer is ready on port 8090
+[00:20:08.339] [WRN] [13] Microsoft.AspNetCore.Server.Kestrel: Overriding address(es) 'http://localhost:8096'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+[00:20:08.364] [INF] [13] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[00:20:08.387] [INF] [13] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for Gerar imagens Trickplay set to fire at 2026-04-20 03:00:00.000 -03:00, which is 02:39:51.6125130 from now.
+[00:20:08.396] [INF] [13] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for Extrair imagens dos capítulos set to fire at 2026-04-20 02:00:00.000 -03:00, which is 01:39:51.6036050 from now.
+[00:20:08.517] [INF] [9] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/15cd7c613fb231a4ea57614745f5ef642e6426b239a5ee5071c048a9e65c3330/content
+[00:20:08.542] [INF] [10] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/9fc8ed2faa1933414f8c1740b2d1864622874e6178b487946e7e1f7aaffc9758/content
+[00:20:08.630] [INF] [17] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/torrent/987bd75cdb28de4f2f03fa07349cc79db06a94b53564d1994ef78fda7c8b9ed0/content
+[00:20:08.690] [INF] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version 8.0.1
+[00:20:08.781] [INF] [7] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/mega/357076421a23c86486369940577237ad2135d55d7ddbef6184c34a37a871d0d2/content
+[00:20:08.864] [INF] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available decoders: ["libdav1d", "av1", "h264", "hevc", "mpeg2video", "mpeg4", "msmpeg4", "vp8", "libvpx", "vp9", "libvpx-vp9", "aac", "ac3", "dca", "flac", "mp3", "truehd"]
+[00:20:09.002] [INF] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available encoders: ["libsvtav1", "libx264", "h264_videotoolbox", "libx265", "hevc_videotoolbox", "aac", "aac_at", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[00:20:09.220] [INF] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["scale_vt", "transpose_vt", "zscale"]
+[00:20:09.431] [WRN] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: scale_cuda with option format is not available
+[00:20:09.709] [WRN] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: tonemap_cuda with option GPU accelerated HDR to SDR tonemapping is not available
+[00:20:09.863] [WRN] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: tonemap_opencl with option bt2390 is not available
+[00:20:09.991] [WRN] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: overlay_opencl with option Action to take when encountering EOF from secondary input is not available
+[00:20:10.131] [WRN] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: overlay_vaapi with option Action to take when encountering EOF from secondary input is not available
+[00:20:10.243] [WRN] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: overlay_vulkan with option Action to take when encountering EOF from secondary input is not available
+[00:20:10.358] [WRN] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: transpose_opencl with option rotate by half-turn is not available
+[00:20:10.475] [WRN] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: overlay_opencl with option alpha_format is not available
+[00:20:10.601] [WRN] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: overlay_cuda with option alpha_format is not available
+[00:20:11.321] [INF] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["videotoolbox"]
+[00:20:11.407] [INF] [7] Emby.Server.Implementations.ScheduledTasks.TaskManager: Limpar pasta de transcodificação Completed after 0 minute(s) and 0 seconds
+[00:20:11.408] [INF] [17] Emby.Server.Implementations.ScheduledTasks.TaskManager: Limpe coleções e playlists Completed after 0 minute(s) and 0 seconds
+[00:20:13.205] [INF] [13] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: ffmpeg
+[00:20:13.206] [INF] [13] Emby.Server.Implementations.ApplicationHost: ServerId: d1128c140a3f48689198bfbf15c1d1c1
+[00:20:13.206] [INF] [13] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[00:20:13.207] [INF] [13] Main: Startup complete 0:00:09.0437781
+[00:20:14.115] [INF] [13] Emby.Server.Implementations.ScheduledTasks.TaskManager: Atualizar Plugins Completed after 0 minute(s) and 2 seconds
+[00:20:45.164] [ERR] [17] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: Token is required. URL GET /socket.
+[00:20:54.174] [ERR] [21] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: Token is required. URL GET /socket.
+[00:21:11.907] [ERR] [9] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: Token is required. URL GET /socket.
+[00:21:23.700] [INF] [9] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for everton. EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[00:21:24.256] [INF] [21] Jellyfin.Api.Controllers.DynamicHlsController: Current HLS implementation doesn't support non-keyframe breaks but one is requested, ignoring that request
+[00:21:24.275] [INF] [21] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: ffmpeg -analyzeduration 200M -probesize 1G -fflags +genpts  -i "http://localhost:8096/Library/VirtualFolders/MediaFireRedirect/ih391z3yb0xgtl8?fileName=Naruto%20-%20Episo%CC%81dio%20001%20%E2%80%93%20Naruto%20Uzumaki%20Chegando%21.mp4" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:1 -map -0:s -codec:v:0 copy -bsf:v h264_mp4toannexb -start_at_zero -codec:a:0 copy -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 6 -hls_segment_type fmp4 -hls_fmp4_init_filename "b99df33eea1f76395efe39e214b9fbf8-1.mp4" -start_number 0 -hls_segment_filename "/Users/everton/Library/Application Support/jellyfin/cache/transcodes/b99df33eea1f76395efe39e214b9fbf8%d.mp4" -hls_playlist_type vod -hls_list_size 0 -hls_segment_options movflags=+frag_discont -y "/Users/everton/Library/Application Support/jellyfin/cache/transcodes/b99df33eea1f76395efe39e214b9fbf8.m3u8"
+[00:21:30.757] [INF] [25] MediaBrowser.Controller.MediaEncoding.TranscodingJob: Stopping ffmpeg process with q command for /Users/everton/Library/Application Support/jellyfin/cache/transcodes/b99df33eea1f76395efe39e214b9fbf8.m3u8
+[00:21:30.959] [INF] [25] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: FFmpeg exited with code 0
+[00:21:30.962] [INF] [25] Jellyfin.Api.Controllers.DynamicHlsController: Current HLS implementation doesn't support non-keyframe breaks but one is requested, ignoring that request
+[00:21:30.963] [INF] [25] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: ffmpeg -analyzeduration 200M -probesize 1G -ss 00:01:48.500 -noaccurate_seek -fflags +genpts  -i "http://localhost:8096/Library/VirtualFolders/MediaFireRedirect/ih391z3yb0xgtl8?fileName=Naruto%20-%20Episo%CC%81dio%20001%20%E2%80%93%20Naruto%20Uzumaki%20Chegando%21.mp4" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:1 -map -0:s -codec:v:0 copy -bsf:v h264_mp4toannexb -start_at_zero -codec:a:0 copy -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 6 -hls_segment_type fmp4 -hls_fmp4_init_filename "b99df33eea1f76395efe39e214b9fbf8-1.mp4" -start_number 18 -hls_segment_filename "/Users/everton/Library/Application Support/jellyfin/cache/transcodes/b99df33eea1f76395efe39e214b9fbf8%d.mp4" -hls_playlist_type vod -hls_list_size 0 -hls_segment_options movflags=+frag_discont -y "/Users/everton/Library/Application Support/jellyfin/cache/transcodes/b99df33eea1f76395efe39e214b9fbf8.m3u8"
+[00:21:40.628] [ERR] [27] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: Token is required. URL GET /socket.
+[00:21:42.986] [INF] [23] MediaBrowser.Controller.MediaEncoding.TranscodingJob: Stopping ffmpeg process with q command for /Users/everton/Library/Application Support/jellyfin/cache/transcodes/b99df33eea1f76395efe39e214b9fbf8.m3u8
+[00:21:43.060] [INF] [23] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: FFmpeg exited with code 0
+[00:21:43.061] [INF] [23] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: Deleting partial stream file(s) /Users/everton/Library/Application Support/jellyfin/cache/transcodes/b99df33eea1f76395efe39e214b9fbf8.m3u8
+[00:21:44.593] [INF] [24] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app Jellyfin Web 10.11.8 playing Naruto Uzumaki Chegando!. Stopped at 116373 ms
+[00:22:03.062] [INF] [26] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/15cd7c613fb231a4ea57614745f5ef642e6426b239a5ee5071c048a9e65c3330/content
+[00:22:03.063] [INF] [26] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/mega/357076421a23c86486369940577237ad2135d55d7ddbef6184c34a37a871d0d2/content
+[00:22:03.064] [INF] [26] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/torrent/987bd75cdb28de4f2f03fa07349cc79db06a94b53564d1994ef78fda7c8b9ed0/content
+[00:22:03.064] [INF] [26] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/9fc8ed2faa1933414f8c1740b2d1864622874e6178b487946e7e1f7aaffc9758/content
+[00:22:04.178] [INF] [26] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/torrent/987bd75cdb28de4f2f03fa07349cc79db06a94b53564d1994ef78fda7c8b9ed0/content
+[00:22:04.260] [INF] [29] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/mega/357076421a23c86486369940577237ad2135d55d7ddbef6184c34a37a871d0d2/content
+[00:22:04.334] [INF] [25] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/15cd7c613fb231a4ea57614745f5ef642e6426b239a5ee5071c048a9e65c3330/content
+[00:22:04.418] [INF] [23] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/9fc8ed2faa1933414f8c1740b2d1864622874e6178b487946e7e1f7aaffc9758/content
+[00:22:15.691] [INF] [27] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/15cd7c613fb231a4ea57614745f5ef642e6426b239a5ee5071c048a9e65c3330/content
+[00:22:15.692] [INF] [27] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/mega/357076421a23c86486369940577237ad2135d55d7ddbef6184c34a37a871d0d2/content
+[00:22:15.692] [INF] [27] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/torrent/987bd75cdb28de4f2f03fa07349cc79db06a94b53564d1994ef78fda7c8b9ed0/content
+[00:22:15.692] [INF] [27] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/9fc8ed2faa1933414f8c1740b2d1864622874e6178b487946e7e1f7aaffc9758/content
+[00:22:16.784] [INF] [26] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/torrent/987bd75cdb28de4f2f03fa07349cc79db06a94b53564d1994ef78fda7c8b9ed0/content
+[00:22:16.843] [INF] [29] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/15cd7c613fb231a4ea57614745f5ef642e6426b239a5ee5071c048a9e65c3330/content
+[00:22:16.904] [INF] [25] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/mega/357076421a23c86486369940577237ad2135d55d7ddbef6184c34a37a871d0d2/content
+[00:22:16.966] [INF] [27] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/9fc8ed2faa1933414f8c1740b2d1864622874e6178b487946e7e1f7aaffc9758/content
+[00:22:23.022] [INF] [29] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/15cd7c613fb231a4ea57614745f5ef642e6426b239a5ee5071c048a9e65c3330/content
+[00:22:23.023] [INF] [29] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/mega/357076421a23c86486369940577237ad2135d55d7ddbef6184c34a37a871d0d2/content
+[00:22:23.023] [INF] [29] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/torrent/987bd75cdb28de4f2f03fa07349cc79db06a94b53564d1994ef78fda7c8b9ed0/content
+[00:22:23.024] [INF] [29] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/9fc8ed2faa1933414f8c1740b2d1864622874e6178b487946e7e1f7aaffc9758/content
+[00:22:23.025] [INF] [29] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[00:22:23.269] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder /Users/everton/Library/Application Support/jellyfin/data/playlists is inaccessible or empty, skipping
+[00:22:23.300] [WRN] [29] Microsoft.EntityFrameworkCore.Query: Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+[00:22:23.844] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder /Users/everton/Library/Application Support/jellyfin/data/playlists is inaccessible or empty, skipping
+[00:22:28.463] [INF] [27] Emby.Server.Implementations.ScheduledTasks.TaskManager: Escanear a Biblioteca de Mídia Completed after 0 minute(s) and 5 seconds
+[00:22:28.760] [INF] [26] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/torrent/987bd75cdb28de4f2f03fa07349cc79db06a94b53564d1994ef78fda7c8b9ed0/content
+[00:22:28.760] [INF] [17] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/15cd7c613fb231a4ea57614745f5ef642e6426b239a5ee5071c048a9e65c3330/content
+[00:22:28.761] [INF] [23] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/9fc8ed2faa1933414f8c1740b2d1864622874e6178b487946e7e1f7aaffc9758/content
+[00:22:30.945] [ERR] [27] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: Token is required. URL GET /socket.
+[00:22:45.414] [ERR] [27] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: Token is required. URL GET /socket.
+[00:22:57.830] [INF] [21] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for everton. EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[00:23:02.177] [ERR] [21] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: Token is required. URL GET /socket.
+[00:23:08.688] [INF] [21] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for everton. EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[00:23:08.800] [INF] [21] Jellyfin.Api.Controllers.DynamicHlsController: Current HLS implementation doesn't support non-keyframe breaks but one is requested, ignoring that request
+[00:23:08.807] [INF] [21] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: ffmpeg -analyzeduration 200M -probesize 1G  -i "https://drive.usercontent.google.com/download?id=1gctZqAvIgCa-FH2Q8TIc8DuftGJ7tzAt&export=download&confirm=t" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:1 -map -0:s -codec:v:0 libx264 -preset veryfast -crf 23 -maxrate 4050470 -bufsize 8100940 -profile:v:0 main -level 31 -x264opts:0 subme=0:me_range=16:rc_lookahead=10:me=hex:open_gop=0 -force_key_frames:0 "expr:gte(t,n_forced*3)" -sc_threshold:v:0 0 -vf "setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709,scale=trunc(min(max(iw\,ih*a)\,min(1280\,720*a))/2)*2:trunc(min(max(iw/a\,ih)\,min(1280/a\,720))/2)*2,format=yuv420p" -codec:a:0 copy -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 3 -hls_segment_type fmp4 -hls_fmp4_init_filename "6f96f7c14920b815d14bd75e8f0661ae-1.mp4" -start_number 0 -hls_segment_filename "/Users/everton/Library/Application Support/jellyfin/cache/transcodes/6f96f7c14920b815d14bd75e8f0661ae%d.mp4" -hls_playlist_type vod -hls_list_size 0 -hls_segment_options movflags=+frag_discont -y "/Users/everton/Library/Application Support/jellyfin/cache/transcodes/6f96f7c14920b815d14bd75e8f0661ae.m3u8"
+[00:23:19.945] [INF] [17] MediaBrowser.Controller.MediaEncoding.TranscodingJob: Stopping ffmpeg process with q command for /Users/everton/Library/Application Support/jellyfin/cache/transcodes/6f96f7c14920b815d14bd75e8f0661ae.m3u8
+[00:23:20.554] [INF] [17] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: FFmpeg exited with code 0
+[00:23:20.554] [INF] [17] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: Deleting partial stream file(s) /Users/everton/Library/Application Support/jellyfin/cache/transcodes/6f96f7c14920b815d14bd75e8f0661ae.m3u8
+[00:23:22.066] [INF] [17] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app Jellyfin Web 10.11.8 playing Ela Dança, Eu Danço 3. Stopped at 4300 ms
+[00:26:22.293] [INF] [40] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[00:26:22.300] [INF] [39] Emby.Server.Implementations.EntryPoints.TorrServerHost: Stopping TorrServer (PID 3685)...
+[00:26:22.339] [INF] [18] Emby.Server.Implementations.EntryPoints.TorrServerHost: TorrServer stopped.
+[00:26:22.343] [INF] [39] Main: Running query planner optimizations in the database... This might take a while
+[00:26:22.375] [INF] [38] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/15cd7c613fb231a4ea57614745f5ef642e6426b239a5ee5071c048a9e65c3330/content
+[00:26:22.376] [INF] [38] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/torrent/987bd75cdb28de4f2f03fa07349cc79db06a94b53564d1994ef78fda7c8b9ed0/content
+[00:26:22.376] [INF] [38] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path /Users/everton/Library/Application Support/jellyfin/cache/cloudsources/google-drive/9fc8ed2faa1933414f8c1740b2d1864622874e6178b487946e7e1f7aaffc9758/content
+[00:26:22.381] [INF] [39] Emby.Server.Implementations.ApplicationHost: Disposing CoreAppHost
+[00:26:22.381] [INF] [39] Emby.Server.Implementations.ApplicationHost: Disposing MusicBrainzArtistProvider
+[00:26:22.382] [INF] [39] Emby.Server.Implementations.ApplicationHost: Disposing MusicBrainzAlbumProvider
+[00:26:22.382] [INF] [39] Emby.Server.Implementations.ApplicationHost: Disposing PluginManager

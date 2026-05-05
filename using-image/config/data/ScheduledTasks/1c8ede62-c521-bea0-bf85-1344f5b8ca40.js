@@ -1,0 +1,1 @@
+{"StartTimeUtc":"2026-04-27T09:48:23.516787Z","EndTimeUtc":"2026-04-27T09:48:23.6015308Z","Status":"Completed","Name":"Limpar diret\u00F3rio de logs","Key":"CleanLogFiles","Id":"1c8ede62c521bea0bf851344f5b8ca40"}

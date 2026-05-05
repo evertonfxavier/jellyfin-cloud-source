@@ -1,0 +1,61 @@
+npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+npm warn deprecated gauge@3.0.2: This package is no longer supported.
+
+up to date, audited 1723 packages in 14s
+
+64 vulnerabilities (6 low, 22 moderate, 35 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+> jellyfin-web@10.11.8 start
+> npm run serve
+
+
+> jellyfin-web@10.11.8 serve
+> webpack serve --config webpack.dev.js
+
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://192.168.0.6:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/Users/everton/personal/jellyfin/jellyfin-web/public' directory
+Browserslist: browsers data (caniuse-lite) is 10 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+assets by info 81 MiB [immutable] 1993 assets
+assets by path assets/ 48 KiB 28 assets
+assets by path themes/ 140 KiB 14 assets
+assets by path libraries/ 10.3 MiB 9 assets
+assets by path favicons/*.png 49.7 KiB
+  asset favicons/touchicon512.png 25.1 KiB [emitted] [from: ../node_modules/@jellyfin/ux-web/favicons/touchicon512.png] [copied]
+  asset favicons/touchicon.png 8.32 KiB [emitted] [from: ../node_modules/@jellyfin/ux-web/favicons/touchicon.png] [copied]
+  + 3 assets
+assets by path *.json 1.83 KiB
+  asset config.json 1.04 KiB [emitted] [from: config.json] [copied]
+  asset manifest.json 812 bytes [emitted] [from: manifest.json]
++ 49 assets
+orphan modules 642 KiB (javascript) 154 KiB (asset) 13.5 KiB (runtime) [orphan] 524 modules
+runtime modules 168 KiB 65 modules
+javascript modules 25.3 MiB
+  modules by path ../node_modules/ 17.9 MiB 3045 modules
+  modules by path ./ 7.37 MiB 961 modules
+  + 6 modules
+asset modules 24.4 MiB (asset) 49.2 KiB (javascript) 1125 modules
+json modules 7.15 MiB
+  modules by path ./strings/ 7.12 MiB 99 modules
+  modules by path ../node_modules/ 30 KiB 4 modules
+  ./config.json 777 bytes [built] [code generated]
+css modules 47.5 KiB
+  css ../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[0].use[2]!../node_modules/sass-loader/dist/cjs.js!./themes/appletv/theme.scss 7.47 KiB [built] [code generated]
+  css ../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[0].use[2]!../node_modules/sass-loader/dist/cjs.js!./themes/blueradiance/theme.scss 8.11 KiB [built] [code generated]
+  + 4 modules
+webpack 5.99.9 compiled successfully in 13553 ms
+No typescript errors found.
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...

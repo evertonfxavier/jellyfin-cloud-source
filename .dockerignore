@@ -1,0 +1,28 @@
+**/.git
+**/.gitignore
+**/.vs
+**/.vscode
+**/bin
+**/obj
+**/node_modules
+**/.run
+**/.logs
+**/dist
+
+# jellyfin-web build artifacts (rebuilt inside Docker)
+jellyfin-web/dist
+jellyfin-web/node_modules
+
+# jellyfin backend build artifacts
+jellyfin/**/bin
+jellyfin/**/obj
+
+# Dev tools (binary is downloaded inside Docker for Linux)
+jellyfin/tools
+
+# Scripts and docs
+scripts/
+commands.md
+*.md
+!jellyfin/README.md
+!jellyfin-web/README.md

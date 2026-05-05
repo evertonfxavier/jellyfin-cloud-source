@@ -1,0 +1,108 @@
+[2026-04-26 01:14:21.006 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-04-26 01:14:21.228 +00:00] [INF] [7] Jellyfin.Server.ServerSetupApp.SetupServer: Kestrel is listening on "0.0.0.0"
+[2026-04-26 01:14:21.255 +00:00] [INF] [7] Main: Jellyfin version: "10.11.8"
+[2026-04-26 01:14:21.257 +00:00] [INF] [7] Main: Environment Variables: ["[JELLYFIN_CACHE_DIR, /cache]", "[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_DATA_DIR, /config]", "[JELLYFIN_CONFIG_DIR, /config/config]", "[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]"]
+[2026-04-26 01:14:21.258 +00:00] [INF] [7] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2026-04-26 01:14:21.259 +00:00] [INF] [7] Main: Operating system: "Debian GNU/Linux 13 (trixie)"
+[2026-04-26 01:14:21.259 +00:00] [INF] [7] Main: Architecture: Arm64
+[2026-04-26 01:14:21.260 +00:00] [INF] [7] Main: 64-Bit Process: True
+[2026-04-26 01:14:21.260 +00:00] [INF] [7] Main: User Interactive: True
+[2026-04-26 01:14:21.260 +00:00] [INF] [7] Main: Processor count: 10
+[2026-04-26 01:14:21.260 +00:00] [INF] [7] Main: Program data path: "/config"
+[2026-04-26 01:14:21.260 +00:00] [INF] [7] Main: Log directory path: "/config/log"
+[2026-04-26 01:14:21.260 +00:00] [INF] [7] Main: Config directory path: "/config/config"
+[2026-04-26 01:14:21.260 +00:00] [INF] [7] Main: Cache path: "/cache"
+[2026-04-26 01:14:21.260 +00:00] [INF] [7] Main: Temp directory path: "/tmp/jellyfin"
+[2026-04-26 01:14:21.260 +00:00] [INF] [7] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2026-04-26 01:14:21.260 +00:00] [INF] [7] Main: Application directory: "/jellyfin/"
+[2026-04-26 01:14:21.273 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/config/data"` (Unknown) successfully checked with "53.7TiB" free which is over the minimum of "2GiB".
+[2026-04-26 01:14:21.273 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/cache"` (Unknown) successfully checked with "53.7TiB" free which is over the minimum of "2GiB".
+[2026-04-26 01:14:21.274 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/config"` (Unknown) successfully checked with "53.7TiB" free which is over the minimum of "2GiB".
+[2026-04-26 01:14:21.278 +00:00] [INF] [7] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-04-26 01:14:21.341 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Default;Default Timeout=30;Pooling=True"
+[2026-04-26 01:14:21.345 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-04-26 01:14:21.346 +00:00] [INF] [7] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-04-26 01:14:21.374 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: Initialise Migration service.
+[2026-04-26 01:14:22.068 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage PreInitialisation.
+[2026-04-26 01:14:22.077 +00:00] [INF] [7] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-04-26 01:14:22.134 +00:00] [INF] [7] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2026-04-26 01:14:22.147 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Jellyfin.Plugin.AniDB, Version=11.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/plugins/AniDB_11.0.0.0/Jellyfin.Plugin.AniDB.dll"
+[2026-04-26 01:14:22.173 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-04-26 01:14:22.173 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2026-04-26 01:14:22.173 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-04-26 01:14:22.174 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.17.0.2"]
+[2026-04-26 01:14:22.174 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2026-04-26 01:14:22.174 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2026-04-26 01:14:22.174 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2026-04-26 01:14:22.275 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Default;Default Timeout=30;Pooling=True"
+[2026-04-26 01:14:22.275 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-04-26 01:14:22.276 +00:00] [INF] [7] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-04-26 01:14:22.279 +00:00] [INF] [7] Main: Prepare system for possible migrations
+[2026-04-26 01:14:22.300 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage CoreInitialisation.
+[2026-04-26 01:14:22.740 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AniDB" "11.0.0.0"
+[2026-04-26 01:14:22.741 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.11.8.0"
+[2026-04-26 01:14:22.741 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.11.8.0"
+[2026-04-26 01:14:22.741 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.11.8.0"
+[2026-04-26 01:14:22.754 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.11.8.0"
+[2026-04-26 01:14:22.755 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.11.8.0"
+[2026-04-26 01:14:22.799 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage AppInitialisation.
+[2026-04-26 01:14:22.836 +00:00] [INF] [10] Main: Kestrel is listening on "0.0.0.0"
+[2026-04-26 01:14:23.171 +00:00] [INF] [9] Emby.Server.Implementations.EntryPoints.TorrServerHost: Starting TorrServer from "/jellyfin/TorrServer" with data path "/config/data/torrserver"
+[2026-04-26 01:14:23.175 +00:00] [INF] [9] Emby.Server.Implementations.EntryPoints.TorrServerHost: TorrServer started with PID 26
+[2026-04-26 01:14:24.188 +00:00] [INF] [9] Emby.Server.Implementations.EntryPoints.TorrServerHost: TorrServer is ready on port 8090
+[2026-04-26 01:14:24.498 +00:00] [WRN] [9] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2026-04-26 01:14:24.532 +00:00] [INF] [9] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2026-04-26 01:14:24.532 +00:00] [INF] [7] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/cache/cloudsources/http-stream/06f98ca33ccf776e4f7162a4502f04d133d593a5b3bef7dca7b3a62431129f78/content"
+[2026-04-26 01:14:24.533 +00:00] [INF] [10] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/cache/cloudsources/torrent/5d4d2c2bd6e88c146fa6345a059113a2b7a28cc1972230e462b44179c691dec0/content"
+[2026-04-26 01:14:24.533 +00:00] [INF] [13] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/cache/cloudsources/torrent/888d118d97d850ad7931e4aec60d524d8e5924a0d51af8397c0ae52060d4e9e3/content"
+[2026-04-26 01:14:24.548 +00:00] [INF] [9] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Gerar miniaturas de vídeo" set to fire at 2026-04-26 03:00:00.000 +00:00, which is 01:45:35.4517073 from now.
+[2026-04-26 01:14:24.553 +00:00] [INF] [9] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extrair Imagens do Capítulo" set to fire at 2026-04-26 02:00:00.000 +00:00, which is 00:45:35.4463430 from now.
+[2026-04-26 01:14:24.659 +00:00] [INF] [9] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "7.1.3"
+[2026-04-26 01:14:24.695 +00:00] [INF] [9] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_rkmpp", "h264", "h264_rkmpp", "h264_cuvid", "hevc", "hevc_rkmpp", "hevc_cuvid", "mpeg1_rkmpp", "mpeg2video", "mpeg2_rkmpp", "mpeg2_cuvid", "mpeg4", "mpeg4_rkmpp", "mpeg4_cuvid", "msmpeg4", "vc1_cuvid", "vp8", "vp8_rkmpp", "libvpx", "vp8_cuvid", "vp9", "vp9_rkmpp", "libvpx-vp9", "vp9_cuvid", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2026-04-26 01:14:24.710 +00:00] [INF] [9] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "libx264", "h264_nvenc", "h264_v4l2m2m", "h264_rkmpp", "libx265", "hevc_nvenc", "hevc_rkmpp", "mjpeg_rkmpp", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2026-04-26 01:14:24.730 +00:00] [INF] [9] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["bwdif_cuda", "bwdif_opencl", "hwupload_cuda", "overlay_opencl", "overlay_cuda", "overlay_rkrga", "scale_cuda", "scale_opencl", "scale_rkrga", "tonemapx", "tonemap_cuda", "tonemap_opencl", "transpose_cuda", "transpose_opencl", "vpp_rkrga", "yadif_cuda", "yadif_opencl", "zscale", "alphasrc"]
+[2026-04-26 01:14:24.798 +00:00] [WRN] [9] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: "overlay_vaapi" with option "Action to take when encountering EOF from secondary input" is not available
+[2026-04-26 01:14:24.810 +00:00] [WRN] [9] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: "overlay_vulkan" with option "Action to take when encountering EOF from secondary input" is not available
+[2026-04-26 01:14:24.949 +00:00] [INF] [9] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "drm", "opencl", "rkmpp"]
+[2026-04-26 01:14:27.575 +00:00] [INF] [13] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Limpar o diretório de Transcode" Completed after 0 minute(s) and 0 seconds
+[2026-04-26 01:14:27.578 +00:00] [INF] [23] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Limpar coleções e listas de reprodução" Completed after 0 minute(s) and 0 seconds
+[2026-04-26 01:14:29.485 +00:00] [INF] [7] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Atualizar Plugins" Completed after 0 minute(s) and 1 seconds
+[2026-04-26 01:14:35.820 +00:00] [INF] [9] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2026-04-26 01:14:35.821 +00:00] [INF] [9] Emby.Server.Implementations.ApplicationHost: ServerId: "9c0f27004cdc40728e6dc995c2bc64b2"
+[2026-04-26 01:14:35.821 +00:00] [INF] [9] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2026-04-26 01:14:35.821 +00:00] [INF] [9] Main: Startup complete 0:00:15.1062612
+[2026-04-26 02:01:34.870 +00:00] [INF] [51] Emby.Server.Implementations.Chapters.ChapterManager: Skipping chapter image extraction for "Lilo & Stitch" as the average chapter duration 0 was lower than the minimum threshold 10000000
+[2026-04-26 02:01:34.871 +00:00] [INF] [51] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extrair Imagens do Capítulo" Completed after 0 minute(s) and 0 seconds
+[2026-04-26 02:01:35.695 +00:00] [INF] [51] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extrair Imagens do Capítulo" set to fire at 2026-04-27 02:00:00.000 +00:00, which is 23:58:24.3049262 from now.
+[2026-04-26 10:22:20.930 +00:00] [INF] [145] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Gerar miniaturas de vídeo" Completed after 0 minute(s) and 0 seconds
+[2026-04-26 10:22:21.666 +00:00] [INF] [145] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Gerar miniaturas de vídeo" set to fire at 2026-04-27 03:00:00.000 +00:00, which is 16:37:38.3335958 from now.
+[2026-04-26 15:48:23.648 +00:00] [INF] [182] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2026-04-26 15:48:23.858 +00:00] [INF] [182] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-04-26 15:48:23.860 +00:00] [INF] [182] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Otimizar base de dados" Completed after 0 minute(s) and 0 seconds
+[2026-04-26 21:48:23.622 +00:00] [INF] [54] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/cache/cloudsources/torrent/888d118d97d850ad7931e4aec60d524d8e5924a0d51af8397c0ae52060d4e9e3/content"
+[2026-04-26 21:48:23.636 +00:00] [INF] [54] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/cache/cloudsources/torrent/5d4d2c2bd6e88c146fa6345a059113a2b7a28cc1972230e462b44179c691dec0/content"
+[2026-04-26 21:48:23.637 +00:00] [INF] [54] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/cache/cloudsources/http-stream/06f98ca33ccf776e4f7162a4502f04d133d593a5b3bef7dca7b3a62431129f78/content"
+[2026-04-26 21:48:23.642 +00:00] [INF] [54] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-04-26 21:48:24.126 +00:00] [WRN] [54] MediaBrowser.Controller.Entities.BaseItem: Library folder "/Media" is inaccessible or empty, skipping
+[2026-04-26 21:48:24.141 +00:00] [WRN] [54] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-04-26 21:48:24.331 +00:00] [INF] [62] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Analisar segmentos de multimédia" Completed after 0 minute(s) and 0 seconds
+[2026-04-26 21:48:24.407 +00:00] [WRN] [7] MediaBrowser.Controller.Entities.BaseItem: Library folder "/Media" is inaccessible or empty, skipping
+[2026-04-26 21:48:24.415 +00:00] [WRN] [7] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-04-26 21:48:26.358 +00:00] [WRN] [60] Microsoft.EntityFrameworkCore.Query: Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+[2026-04-26 21:48:30.667 +00:00] [INF] [60] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Analisar mediateca" Completed after 0 minute(s) and 7 seconds
+[2026-04-26 21:48:30.694 +00:00] [INF] [62] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/cache/cloudsources/torrent/888d118d97d850ad7931e4aec60d524d8e5924a0d51af8397c0ae52060d4e9e3/content"
+[2026-04-26 21:48:30.694 +00:00] [INF] [64] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/cache/cloudsources/http-stream/06f98ca33ccf776e4f7162a4502f04d133d593a5b3bef7dca7b3a62431129f78/content"
+[2026-04-26 21:48:30.695 +00:00] [INF] [58] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/cache/cloudsources/torrent/5d4d2c2bd6e88c146fa6345a059113a2b7a28cc1972230e462b44179c691dec0/content"
+[2026-04-26 21:49:24.606 +00:00] [INF] [68] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2026-04-26 21:49:24.835 +00:00] [INF] [68] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-04-26 21:49:24.835 +00:00] [INF] [68] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Otimizar base de dados" Completed after 0 minute(s) and 0 seconds

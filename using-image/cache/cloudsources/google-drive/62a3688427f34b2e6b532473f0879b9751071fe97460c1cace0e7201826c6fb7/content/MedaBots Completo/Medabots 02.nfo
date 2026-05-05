@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<episodedetails>
+  <plot>Ikki e Metabee não se dão tão bem e Henry explica o porquê. Ikki começa a entender por que e decide Ro-Battle os parafusos. No início, eles não se dão bem e o Metabee começa a perder muito mal. Quando Ikki e Metabee começam a trabalhar em equipe, eles batem em Sammantha e Peppercat.</plot>
+  <lockdata>false</lockdata>
+  <dateadded>2026-04-20 14:01:59</dateadded>
+  <title>A vingança dos Malucos</title>
+  <director>坂田純一</director>
+  <writer>山口亮太</writer>
+  <credits>山口亮太</credits>
+  <rating>0</rating>
+  <year>1999</year>
+  <runtime>22</runtime>
+  <studio />
+  <tvrageid>113434</tvrageid>
+  <art>
+    <poster>/config/metadata/library/3f/3f6e3c1b37215436ce1480c57315e1aa/poster.jpg</poster>
+  </art>
+  <actor>
+    <name>山崎みちる</name>
+    <role>Ikki Tenryou (voice)</role>
+    <type>Actor</type>
+    <sortorder>0</sortorder>
+    <thumb>/config/metadata/People/山/山崎みちる/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>竹内順子</name>
+    <role>Metabee (voice)</role>
+    <type>Actor</type>
+    <sortorder>1</sortorder>
+    <thumb>/config/metadata/People/竹/竹内順子/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>仙台エリ</name>
+    <role>Arika Amazake (voice)</role>
+    <type>Actor</type>
+    <sortorder>2</sortorder>
+    <thumb>/config/metadata/People/仙/仙台エリ/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Masami Suzuki</name>
+    <role>Brass (voice)</role>
+    <type>Actor</type>
+    <sortorder>3</sortorder>
+    <thumb>/config/metadata/People/M/Masami Suzuki/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>清水宏</name>
+    <role>Mr. Uruchi (voice)</role>
+    <type>Actor</type>
+    <sortorder>4</sortorder>
+    <thumb>/config/metadata/People/清/清水宏/folder.jpg</thumb>
+  </actor>
+  <showtitle>Medabots</showtitle>
+  <episode>2</episode>
+  <season>1</season>
+  <aired>1999-07-09</aired>
+  <fileinfo>
+    <streamdetails>
+      <video>
+        <codec>h264</codec>
+        <micodec>h264</micodec>
+        <bitrate>338013</bitrate>
+        <width>720</width>
+        <height>480</height>
+        <aspect>1.5:1</aspect>
+        <aspectratio>1.5:1</aspectratio>
+        <framerate>23.976025</framerate>
+        <language>und</language>
+        <scantype>progressive</scantype>
+        <default>True</default>
+        <forced>False</forced>
+        <duration>22</duration>
+        <durationinseconds>1337</durationinseconds>
+      </video>
+      <audio>
+        <codec>aac</codec>
+        <micodec>aac</micodec>
+        <bitrate>64000</bitrate>
+        <language>und</language>
+        <scantype>progressive</scantype>
+        <channels>2</channels>
+        <samplingrate>48000</samplingrate>
+        <default>True</default>
+        <forced>False</forced>
+      </audio>
+    </streamdetails>
+  </fileinfo>
+</episodedetails>

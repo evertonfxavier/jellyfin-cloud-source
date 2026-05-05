@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<tvshow>
+  <plot>Dragon Ball Z (ドラゴンボールZ, Doragon Bōru Zetto) foi uma série de animação produzida pela Toei Animation. Baseada na série de mangá Dragon Ball escrita por Akira Toriyama, Dragon Ball Z corresponde aos volumes 17 ao 42 do mangá que foi publicado na revista, Weekly Shonen Jump, de 1988 a 1995, e estreou no Japão na Fuji TV em 26 de abril de 1989, e terminou dia 31 de janeiro de 1996 com o total de 291 episódios, antes de ser dublada em diversos territórios ao redor do mundo, incluindo Estados Unidos, Austrália, Europa, Índia e Brasil. A série já foi exibida em mais de 80 países ao redor do mundo.</plot>
+  <outline>Dragon Ball Z (ドラゴンボールZ, Doragon Bōru Zetto) foi uma série de animação produzida pela Toei Animation. Baseada na série de mangá Dragon Ball escrita por Akira Toriyama, Dragon Ball Z corresponde aos volumes 17 ao 42 do mangá que foi publicado na revista, Weekly Shonen Jump, de 1988 a 1995, e estreou no Japão na Fuji TV em 26 de abril de 1989, e terminou dia 31 de janeiro de 1996 com o total de 291 episódios, antes de ser dublada em diversos territórios ao redor do mundo, incluindo Estados Unidos, Austrália, Europa, Índia e Brasil. A série já foi exibida em mais de 80 países ao redor do mundo.</outline>
+  <lockdata>false</lockdata>
+  <dateadded>2026-04-19 03:11:44</dateadded>
+  <title>Dragon Ball Z</title>
+  <originaltitle>ドラゴンボールゼット</originaltitle>
+  <rating>8.354</rating>
+  <year>1989</year>
+  <mpaa>BR-12</mpaa>
+  <imdb_id>tt0121220</imdb_id>
+  <tmdbid>12971</tmdbid>
+  <premiered>1989-04-26</premiered>
+  <releasedate>1989-04-26</releasedate>
+  <enddate>1996-01-31</enddate>
+  <runtime>26</runtime>
+  <genre>Action &amp; Adventure</genre>
+  <genre>Animação</genre>
+  <genre>Sci-Fi &amp; Fantasy</genre>
+  <studio>Cartoon Network</studio>
+  <studio>Fuji TV</studio>
+  <tag>adventure</tag>
+  <tag>alien</tag>
+  <tag>android</tag>
+  <tag>anime</tag>
+  <tag>anthropomorphism</tag>
+  <tag>based on manga</tag>
+  <tag>combat</tag>
+  <tag>competition</tag>
+  <tag>cyborg</tag>
+  <tag>dragon</tag>
+  <tag>end of the world</tag>
+  <tag>fantasy</tag>
+  <tag>fighting</tag>
+  <tag>friendship</tag>
+  <tag>joyous</tag>
+  <tag>martial arts</tag>
+  <tag>sequel</tag>
+  <tag>shocking</tag>
+  <tag>shounen</tag>
+  <tag>super power</tag>
+  <tag>time skip</tag>
+  <tag>tournament</tag>
+  <tvrageid>0</tvrageid>
+  <tvdbid>81472</tvdbid>
+  <art>
+    <poster>/config/metadata/library/14/14762841bad7aa1d03a304e8eb52e79e/poster.jpg</poster>
+    <fanart>/config/metadata/library/14/14762841bad7aa1d03a304e8eb52e79e/backdrop.jpg</fanart>
+  </art>
+  <actor>
+    <name>Masako Nozawa</name>
+    <role>Son Goku / Son Gohan / Son Goten (voice)</role>
+    <type>Actor</type>
+    <sortorder>0</sortorder>
+    <thumb>/config/metadata/People/M/Masako Nozawa/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>森下孝三</name>
+    <role>Producer</role>
+    <type>Producer</type>
+    <thumb>/config/metadata/People/森/森下孝三/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>清水賢治</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>金田耕司</name>
+    <role>Producer</role>
+    <type>Producer</type>
+  </actor>
+  <actor>
+    <name>Ryo Horikawa</name>
+    <role>Vegeta (voice)</role>
+    <type>Actor</type>
+    <sortorder>1</sortorder>
+    <thumb>/config/metadata/People/R/Ryo Horikawa/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Toshio Furukawa</name>
+    <role>Piccolo (voice)</role>
+    <type>Actor</type>
+    <sortorder>2</sortorder>
+    <thumb>/config/metadata/People/T/Toshio Furukawa/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Mayumi Tanaka</name>
+    <role>Krillin / Uranai Baba (voice)</role>
+    <type>Actor</type>
+    <sortorder>3</sortorder>
+    <thumb>/config/metadata/People/M/Mayumi Tanaka/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Naoki Tatsuta</name>
+    <role>Oolong / Karin (voice)</role>
+    <type>Actor</type>
+    <sortorder>5</sortorder>
+    <thumb>/config/metadata/People/N/Naoki Tatsuta/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>中尾隆聖</name>
+    <role>Freeza (voice)</role>
+    <type>Actor</type>
+    <sortorder>6</sortorder>
+    <thumb>/config/metadata/People/中/中尾隆聖/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>八奈見乗児</name>
+    <role>Dr. Briefs (voice)</role>
+    <type>Actor</type>
+    <sortorder>7</sortorder>
+    <thumb>/config/metadata/People/八/八奈見乗児/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>渡辺菜生子</name>
+    <role>Puar / Chi-Chi (voice)</role>
+    <type>Actor</type>
+    <sortorder>8</sortorder>
+    <thumb>/config/metadata/People/渡/渡辺菜生子/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Hirotaka Suzuoki</name>
+    <role>Tien Shinhan (voice)</role>
+    <type>Actor</type>
+    <sortorder>10</sortorder>
+    <thumb>/config/metadata/People/H/Hirotaka Suzuoki/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Miki Ito</name>
+    <role>Android 18 (voice)</role>
+    <type>Actor</type>
+    <sortorder>11</sortorder>
+    <thumb>/config/metadata/People/M/Miki Ito/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>皆口裕子</name>
+    <role>Videl, Pan (voice)</role>
+    <type>Actor</type>
+    <sortorder>12</sortorder>
+    <thumb>/config/metadata/People/皆/皆口裕子/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>江森浩子</name>
+    <role>Mama / Chaozu / Bulma / Bulla (voice)</role>
+    <type>Actor</type>
+    <sortorder>13</sortorder>
+    <thumb>/config/metadata/People/江/江森浩子/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>荘真由美</name>
+    <role>Chi-Chi (voice)</role>
+    <type>Actor</type>
+    <sortorder>14</sortorder>
+  </actor>
+  <actor>
+    <name>Toru Furuya</name>
+    <role>Yamcha (voice)</role>
+    <type>Actor</type>
+    <sortorder>15</sortorder>
+    <thumb>/config/metadata/People/T/Toru Furuya/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>鈴木富子</name>
+    <role>Marron (voice)</role>
+    <type>Actor</type>
+    <sortorder>16</sortorder>
+    <thumb>/config/metadata/People/鈴/鈴木富子/folder.jpg</thumb>
+  </actor>
+  <id>81472</id>
+  <episodeguide>
+    <url cache="81472.xml">http://www.thetvdb.com/api/1D62F2F90030C444/series/81472/all/pt-br.zip</url>
+  </episodeguide>
+  <season>-1</season>
+  <episode>-1</episode>
+  <status>Ended</status>
+</tvshow>

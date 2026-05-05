@@ -1,0 +1,33 @@
+services:
+    jellyfin:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: evertonxavier/jellyfin-external-source:latest
+        container_name: jellyfin
+        environment:
+            - PUID=1000
+            - PGID=1000
+            - TZ=America/Sao_Paulo
+        volumes:
+            - jellyfin-config:/config
+            - jellyfin-cache:/cache
+            # - /path/to/media:/media # Altere para sua pasta de mídia
+        ports:
+            - "8096:8096" # Jellyfin Web UI
+            - "8090:8090" # TorrServer API
+        restart: unless-stopped
+        networks:
+            - jellyfin-net
+
+networks:
+    jellyfin-net:
+        enable_ipv6: true
+        driver: bridge
+        ipam:
+            config:
+                - subnet: "fd00:dead:beef::/48"
+
+volumes:
+    jellyfin-config:
+    jellyfin-cache:

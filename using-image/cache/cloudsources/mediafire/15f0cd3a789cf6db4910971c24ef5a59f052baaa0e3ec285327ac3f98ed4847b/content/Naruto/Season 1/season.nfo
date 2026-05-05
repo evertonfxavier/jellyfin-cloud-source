@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<season>
+  <plot>Depois da formação do Time 7( Naruto, Sasuke, Sakura e Kakashi), eles partem para uma missão no País das Ondas onde encontram o Assassino da Nevoa Oculta, Zabuza Momochi, e seu braço direito, Haku.</plot>
+  <outline>Depois da formação do Time 7( Naruto, Sasuke, Sakura e Kakashi), eles partem para uma missão no País das Ondas onde encontram o Assassino da Nevoa Oculta, Zabuza Momochi, e seu braço direito, Haku.</outline>
+  <lockdata>false</lockdata>
+  <dateadded>2026-04-19 03:04:01</dateadded>
+  <title>Temporada 1</title>
+  <year>2002</year>
+  <tvdbid>15770</tvdbid>
+  <premiered>2002-10-03</premiered>
+  <releasedate>2002-10-03</releasedate>
+  <studio />
+  <art>
+    <poster>/config/metadata/library/5e/5eec9d4c01a504cd8517d52c606ce897/poster.jpg</poster>
+  </art>
+  <actor>
+    <name>竹内順子</name>
+    <role>Naruto Uzumaki (voice)</role>
+    <type>Actor</type>
+    <sortorder>0</sortorder>
+    <thumb>/config/metadata/People/竹/竹内順子/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Noriaki Sugiyama</name>
+    <role>Sasuke Uchiha (voice)</role>
+    <type>Actor</type>
+    <sortorder>1</sortorder>
+    <thumb>/config/metadata/People/N/Noriaki Sugiyama/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>中村千絵</name>
+    <role>Sakura Haruno (voice)</role>
+    <type>Actor</type>
+    <sortorder>2</sortorder>
+    <thumb>/config/metadata/People/中/中村千絵/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Kazuhiko Inoue</name>
+    <role>Kakashi Hatake (voice)</role>
+    <type>Actor</type>
+    <sortorder>3</sortorder>
+    <thumb>/config/metadata/People/K/Kazuhiko Inoue/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>柴田秀勝</name>
+    <role>Hiruzen Sarutobi (3º Hokage) (voice)</role>
+    <type>Actor</type>
+    <sortorder>4</sortorder>
+    <thumb>/config/metadata/People/柴/柴田秀勝/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>遠近孝一</name>
+    <role>Neji Hyuga (voice)</role>
+    <type>Actor</type>
+    <sortorder>5</sortorder>
+    <thumb>/config/metadata/People/遠/遠近孝一/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>江原正士</name>
+    <role>Might Guy (voice)</role>
+    <type>Actor</type>
+    <sortorder>6</sortorder>
+    <thumb>/config/metadata/People/江/江原正士/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>増川洋一</name>
+    <role>Rock Lee (voice)</role>
+    <type>Actor</type>
+    <sortorder>7</sortorder>
+    <thumb>/config/metadata/People/増/増川洋一/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>田村ゆかり</name>
+    <role>Tenten (voice)</role>
+    <type>Actor</type>
+    <sortorder>8</sortorder>
+    <thumb>/config/metadata/People/田/田村ゆかり/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Ryoka Yuzuki</name>
+    <role>Ino Yamanaka (voice)</role>
+    <type>Actor</type>
+    <sortorder>9</sortorder>
+    <thumb>/config/metadata/People/R/Ryoka Yuzuki/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>石塚運昇</name>
+    <role>Zabuza Momochi</role>
+    <type>Actor</type>
+    <sortorder>10</sortorder>
+    <thumb>/config/metadata/People/石/石塚運昇/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Showtaro Morikubo</name>
+    <role>Shikamaru Nara (voice)</role>
+    <type>Actor</type>
+    <sortorder>11</sortorder>
+    <thumb>/config/metadata/People/S/Showtaro Morikubo/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>伊藤健太郎</name>
+    <role>Choji Akimichi (voice)</role>
+    <type>Actor</type>
+    <sortorder>12</sortorder>
+    <thumb>/config/metadata/People/伊/伊藤健太郎/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Shinji Kawada</name>
+    <role>Shino Aburame (voice)</role>
+    <type>Actor</type>
+    <sortorder>13</sortorder>
+    <thumb>/config/metadata/People/S/Shinji Kawada/folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Nana Mizuki</name>
+    <role>Hinata Hyuga (voice)</role>
+    <type>Actor</type>
+    <sortorder>14</sortorder>
+    <thumb>/config/metadata/People/N/Nana Mizuki/folder.jpg</thumb>
+  </actor>
+  <seasonnumber>1</seasonnumber>
+</season>
