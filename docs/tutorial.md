@@ -1,79 +1,79 @@
 # Tutorial — Jellyfin External Source
 
-Guia completo de como subir, configurar e usar o Jellyfin com fontes externas na nuvem.
+Complete guide on how to deploy, configure, and use Jellyfin with external cloud sources.
 
 ---
 
-## 1. Subindo o Container
+## 1. Starting the Container
 
-### Opção A: Usando imagem pronta do Docker Hub
+### Option A: Using pre-built image from Docker Hub
 
 ```bash
 cd example
 docker compose up -d
 ```
 
-### Opção B: Build local (para desenvolvimento)
+### Option B: Local build (for development)
 
 ```bash
 docker compose up -d --build
 ```
 
-Aguarde o container iniciar (o healthcheck leva ~30s para ficar saudável).
+Wait for the container to start (healthcheck takes ~30s to become healthy).
 
 ---
 
-## 2. Portas e Serviços
+## 2. Ports and Services
 
-| Serviço          | Porta  | Protocolo | Descrição                                  |
-| ---------------- | ------ | --------- | ------------------------------------------ |
-| **Jellyfin**     | `8096` | HTTP      | Interface web + API REST do media server    |
-| **TorrServer**   | `8090` | HTTP      | API de gerenciamento e streaming de torrent |
+| Service          | Port   | Protocol | Description                              |
+| ---------------- | ------ | -------- | ---------------------------------------- |
+| **Jellyfin**     | `8096` | HTTP     | Web interface + REST API for media server |
+| **TorrServer**   | `8090` | HTTP     | Torrent management and streaming API     |
 
-### URLs de acesso
+### Access URLs
 
-| Serviço        | URL                          |
-| -------------- | ---------------------------- |
-| Jellyfin Web   | http://localhost:8096        |
+| Service        | URL                            |
+| -------------- | ------------------------------ |
+| Jellyfin Web   | http://localhost:8096          |
 | Jellyfin API   | http://localhost:8096/api-docs |
-| TorrServer     | http://localhost:8090        |
+| TorrServer     | http://localhost:8090          |
 
-> **Nota:** Se estiver rodando em um servidor remoto, substitua `localhost` pelo IP ou domínio do servidor.
-
----
-
-## 3. Configuração Inicial do Jellyfin
-
-1. Acesse http://localhost:8096
-2. Escolha o idioma (Português Brasil disponível)
-3. Crie o usuário administrador
-4. Na etapa de bibliotecas, pule por enquanto — vamos configurar as fontes externas depois
-5. Finalize o wizard
+> **Note:** If running on a remote server, replace `localhost` with the server's IP or domain.
 
 ---
 
-## 4. Usando Fontes Externas
+## 3. Initial Jellyfin Setup
+
+1. Go to http://localhost:8096
+2. Choose your language
+3. Create the admin user
+4. On the library step, skip for now — we'll configure external sources later
+5. Finish the wizard
+
+---
+
+## 4. Using External Sources
 
 ### 4.1 Torrent (via TorrServer)
 
-O TorrServer já vem embutido no container e é iniciado automaticamente pelo Jellyfin.
+TorrServer is built into the container and started automatically by Jellyfin.
 
-**Como adicionar conteúdo via torrent:**
+**How to add torrent content:**
 
-1. No painel do Jellyfin, vá em **Configurações** → **Bibliotecas**
-2. Adicione uma nova biblioteca
-3. Selecione a opção de **Fonte na Nuvem** → **Torrent**
-4. Cole o link magnet ou infohash do torrent
-5. Escolha quais arquivos da torrent deseja incluir na biblioteca
-6. O TorrServer fará o streaming sob demanda — sem download completo
+1. In the Jellyfin dashboard, go to **Settings** → **Libraries**
+2. Add a new library
+3. Select **Cloud Source** → **Torrent**
+4. Paste the magnet link or infohash
+5. Choose which files from the torrent to include in the library
+6. TorrServer will stream on demand — no full download required
 
-**API direta do TorrServer:**
+**Direct TorrServer API:**
 
 ```bash
-# Listar torrents ativos
+# List active torrents
 curl http://localhost:8090/torrents
 
-# Adicionar magnet
+# Add magnet
 curl -X POST http://localhost:8090/torrents \
   -H "Content-Type: application/json" \
   -d '{"action": "add", "link": "magnet:?xt=urn:btih:..."}'
@@ -81,31 +81,31 @@ curl -X POST http://localhost:8090/torrents \
 
 ### 4.2 Google Drive
 
-1. No painel do Jellyfin, vá em **Configurações** → **Bibliotecas**
-2. Adicione uma nova biblioteca
-3. Selecione **Fonte na Nuvem** → **Google Drive**
-4. Autentique com sua conta Google
-5. Selecione a pasta do Drive que contém seus arquivos de mídia
-6. O Jellyfin vai indexar os metadados e fazer streaming direto do Drive
+1. In the Jellyfin dashboard, go to **Settings** → **Libraries**
+2. Add a new library
+3. Select **Cloud Source** → **Google Drive**
+4. Authenticate with your Google account
+5. Select the Drive folder containing your media files
+6. Jellyfin will index metadata and stream directly from Drive
 
 ### 4.3 Mediafire
 
-1. No painel do Jellyfin, vá em **Configurações** → **Bibliotecas**
-2. Adicione uma nova biblioteca
-3. Selecione **Fonte na Nuvem** → **Mediafire**
-4. Cole o link do arquivo ou pasta do Mediafire
-5. O sistema resolve o link de download e faz streaming direto
+1. In the Jellyfin dashboard, go to **Settings** → **Libraries**
+2. Add a new library
+3. Select **Cloud Source** → **Mediafire**
+4. Paste the Mediafire file or folder link
+5. The system resolves the download link and streams directly
 
 ---
 
-## 5. Volumes e Persistência
+## 5. Volumes and Persistence
 
-| Volume            | Caminho no container | Descrição                          |
-| ----------------- | -------------------- | ---------------------------------- |
-| `jellyfin-config` | `/config`            | Configurações, DB, metadados       |
-| `jellyfin-cache`  | `/cache`             | Cache de imagens e transcodificação |
+| Volume            | Container Path | Description                         |
+| ----------------- | -------------- | ----------------------------------- |
+| `jellyfin-config` | `/config`      | Settings, DB, metadata              |
+| `jellyfin-cache`  | `/cache`       | Image cache and transcoding         |
 
-Para fazer backup, copie o volume `jellyfin-config`:
+To back up, copy the `jellyfin-config` volume:
 
 ```bash
 docker cp jellyfin:/config ./backup-config
@@ -113,36 +113,36 @@ docker cp jellyfin:/config ./backup-config
 
 ---
 
-## 6. Variáveis de Ambiente
+## 6. Environment Variables
 
-| Variável | Padrão               | Descrição                |
+| Variable | Default              | Description              |
 | -------- | -------------------- | ------------------------ |
-| `PUID`   | `1000`               | User ID do processo      |
-| `PGID`   | `1000`               | Group ID do processo     |
-| `TZ`     | `America/Sao_Paulo`  | Timezone do container    |
+| `PUID`   | `1000`               | Process user ID          |
+| `PGID`   | `1000`               | Process group ID         |
+| `TZ`     | `America/Sao_Paulo`  | Container timezone       |
 
 ---
 
-## 7. Rede
+## 7. Network
 
-O `docker-compose.yml` cria uma rede bridge com suporte a IPv6:
+The `docker-compose.yml` creates a bridge network with IPv6 support:
 
-- **Rede:** `jellyfin-net`
-- **Subnet IPv6:** `fd00:dead:beef::/48`
+- **Network:** `jellyfin-net`
+- **IPv6 Subnet:** `fd00:dead:beef::/48`
 
 ---
 
 ## 8. Healthcheck
 
-O container possui healthcheck automático:
+The container has automatic healthcheck:
 
-- **Intervalo:** 30s
+- **Interval:** 30s
 - **Timeout:** 30s
 - **Start period:** 10s
 - **Retries:** 3
 - **Endpoint:** `http://localhost:8096/health`
 
-Verifique o status:
+Check status:
 
 ```bash
 docker inspect --format='{{.State.Health.Status}}' jellyfin
@@ -152,23 +152,23 @@ docker inspect --format='{{.State.Health.Status}}' jellyfin
 
 ## 9. Troubleshooting
 
-### Container não inicia
+### Container won't start
 
 ```bash
 docker logs jellyfin
 ```
 
-### TorrServer não responde na porta 8090
+### TorrServer not responding on port 8090
 
-Verifique se o processo está ativo dentro do container:
+Check if the process is running inside the container:
 
 ```bash
 docker exec jellyfin ps aux | grep TorrServer
 ```
 
-### Transcodificação lenta
+### Slow transcoding
 
-O container suporta aceleração por hardware (NVIDIA). Adicione ao `docker-compose.yml`:
+The container supports hardware acceleration (NVIDIA). Add to `docker-compose.yml`:
 
 ```yaml
 deploy:
@@ -178,7 +178,7 @@ deploy:
         - capabilities: [gpu]
 ```
 
-### Reiniciar o container
+### Restart the container
 
 ```bash
 docker compose restart jellyfin

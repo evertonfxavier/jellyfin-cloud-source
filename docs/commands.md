@@ -1,58 +1,58 @@
-## Jellyfin local - comandos
+## Local Jellyfin — Commands
 
-### Rodar pela raiz do projeto
+### Run from project root
 
-Modo separado (frontend + backend nowebclient):
+Separate mode (frontend + backend nowebclient):
 
 ```bash
 ./scripts/start-dev-local.sh separate
 ```
 
-Modo backend servindo web (bundled):
+Bundled mode (backend serving web):
 
 ```bash
 ./scripts/start-dev-local.sh bundled
 ```
 
-Atalho aceito:
+Accepted shortcut:
 
 ```bash
 ./scripts/start-dev-local.sh bundle
 ```
 
-Parar tudo:
+Stop all:
 
 ```bash
 ./scripts/stop-dev-local.sh
 ```
 
-Ver status (modo, PID e portas):
+Check status (mode, PID, and ports):
 
 ```bash
 ./scripts/status-dev-local.sh
 ```
 
-### Rodar de dentro da pasta scripts
+### Run from inside the scripts folder
 
-Modo separado:
+Separate mode:
 
 ```bash
 ./start-dev-local.sh separate
 ```
 
-Modo bundled:
+Bundled mode:
 
 ```bash
 ./start-dev-local.sh bundled
 ```
 
-Atalho:
+Shortcut:
 
 ```bash
 ./start-dev-local.sh bundle
 ```
 
-Parar tudo:
+Stop all:
 
 ```bash
 ./stop-dev-local.sh

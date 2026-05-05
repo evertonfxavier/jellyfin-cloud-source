@@ -3,7 +3,7 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-        image: evertonxavier/jellyfin-external-source:latest
+        image: evertonxavier/jellyfin-cloud-source:latest
         container_name: jellyfin
         environment:
             - PUID=1000
@@ -12,7 +12,7 @@ services:
         volumes:
             - jellyfin-config:/config
             - jellyfin-cache:/cache
-            # - /path/to/media:/media # Altere para sua pasta de mídia
+            # - /path/to/media:/media # Change this to your media directory
         ports:
             - "8096:8096" # Jellyfin Web UI
             - "8090:8090" # TorrServer API

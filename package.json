@@ -1,7 +1,7 @@
 {
-  "name": "jellyfin-external-source",
+  "name": "jellyfin-cloud-source",
   "private": true,
   "scripts": {
-    "build": "docker buildx build --platform linux/amd64,linux/arm64 -t evertonxavier/jellyfin-external-source:latest --push ."
+    "build": "docker buildx build --platform linux/amd64,linux/arm64 -t evertonxavier/jellyfin-cloud-source:latest --push ."
   }
 }

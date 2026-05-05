@@ -14,7 +14,7 @@ services:
       - PUID=1000
       - TZ=Etc/UTC
     hostname: jellyfin
-    image: evertonxavier/jellyfin-external-source:latest
+    image: evertonxavier/jellyfin-cloud-source:latest
     ports:
       - target: 8096
         published: "8096"

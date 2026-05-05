@@ -1,8 +1,8 @@
 # Jellyfin External Source
 
-Fork customizado do [Jellyfin](https://jellyfin.org/) com suporte a fontes de mídia na nuvem — **Torrent (via TorrServer)**, **Google Drive** e **Mediafire** — sem precisar baixar arquivos localmente.
+Custom [Jellyfin](https://jellyfin.org/) fork with cloud media source support — **Torrent (via TorrServer)**, **Google Drive**, and **Mediafire** — no local downloads required.
 
-## Arquitetura
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -20,103 +20,103 @@ Fork customizado do [Jellyfin](https://jellyfin.org/) com suporte a fontes de m�
 │  └──────────────┘                            │
 └─────────────────────────────────────────────┘
          │
-         ▼ Fontes externas
+         ▼ External Sources
    ┌─────────────┐  ┌──────────┐  ┌───────────┐
    │   Torrent   │  │  Google  │  │ Mediafire │
    │  (magnet)   │  │  Drive   │  │           │
    └─────────────┘  └──────────┘  └───────────┘
 ```
 
-## Funcionalidades
+## Features
 
-- **Torrent Streaming** — Integração com TorrServer embutido. Adicione magnets e assista em tempo real sem download prévio.
-- **Google Drive** — Adicione bibliotecas apontando para pastas do Google Drive como fonte de mídia.
-- **Mediafire** — Suporte a links do Mediafire como fonte externa de arquivos de mídia.
-- **Interface customizada** — UI modificada para gerenciar fontes na nuvem diretamente pelo painel do Jellyfin.
+- **Torrent Streaming** — Built-in TorrServer integration. Add magnets and watch in real-time without prior download.
+- **Google Drive** — Add libraries pointing to Google Drive folders as media sources.
+- **Mediafire** — Support for Mediafire links as external media file sources.
+- **Custom UI** — Modified interface to manage cloud sources directly from the Jellyfin dashboard.
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 .
-├── Dockerfile              # Build multi-stage (server + web + TorrServer)
-├── docker-compose.yml      # Stack completa para deploy
-├── package.json            # Script de build multi-arch
+├── Dockerfile              # Multi-stage build (server + web + TorrServer)
+├── docker-compose.yml      # Full stack for deployment
+├── package.json            # Multi-arch build script
 ├── submodules/
-│   ├── jellyfin/           # [submodule] jellyfin-server customizado
-│   └── jellyfin-web/       # [submodule] jellyfin-web customizado
-├── scripts/                # Scripts de desenvolvimento local
-└── example/                # Exemplo de deploy usando imagem pronta
+│   ├── jellyfin/           # [submodule] custom jellyfin-server
+│   └── jellyfin-web/       # [submodule] custom jellyfin-web
+├── scripts/                # Local development scripts
+└── example/                # Deploy example using pre-built image
 ```
 
-## Início Rápido
+## Quick Start
 
-### Com Docker Compose (build local)
+### With Docker Compose (local build)
 
 ```bash
-git clone --recurse-submodules git@github.com-personal:evertonfxavier/jellyfin-external-source.git
-cd jellyfin-external-source
+git clone --recurse-submodules git@github.com-personal:evertonfxavier/jellyfin-cloud-source.git
+cd jellyfin-cloud-source
 docker compose up -d --build
 ```
 
-Acesse: http://localhost:8096
+Access: http://localhost:8096
 
-### Usando imagem pronta
+### Using pre-built image
 
 ```bash
 cd example
 docker compose up -d
 ```
 
-## Desenvolvimento Local
+## Local Development
 
-### Pré-requisitos
+### Prerequisites
 
 - .NET SDK 9.0
 - Node.js 20+
 - npm
 
-### Modo separado (frontend hot-reload + backend)
+### Separate mode (frontend hot-reload + backend)
 
 ```bash
 ./scripts/start-dev-local.sh separate
 ```
 
-### Modo bundled (backend servindo o web)
+### Bundled mode (backend serving web)
 
 ```bash
 ./scripts/start-dev-local.sh bundled
 ```
 
-### Parar / Status
+### Stop / Status
 
 ```bash
 ./scripts/stop-dev-local.sh
 ./scripts/status-dev-local.sh
 ```
 
-## Build Multi-Arch (amd64 + arm64)
+## Multi-Arch Build (amd64 + arm64)
 
 ```bash
 npm run build
 ```
 
-Isso gera e faz push da imagem `evertonxavier/jellyfin-external-source:latest` para o Docker Hub.
+This builds and pushes the `evertonxavier/jellyfin-cloud-source:latest` image to Docker Hub.
 
-## Portas
+## Ports
 
-| Serviço     | Porta | Descrição            |
+| Service     | Port  | Description          |
 | ----------- | ----- | -------------------- |
 | Jellyfin    | 8096  | Web UI + API         |
-| TorrServer  | 8090  | API de streaming     |
+| TorrServer  | 8090  | Streaming API        |
 
 ## Submodules
 
-| Pasta                   | Repositório                                                    | Branch |
-| ----------------------- | -------------------------------------------------------------- | ------ |
-| `submodules/jellyfin/`  | `git@github.com-personal:evertonfxavier/jellyfin-server.git`   | master |
-| `submodules/jellyfin-web/` | `git@github.com-personal:evertonfxavier/jellyfin-web.git`   | master |
+| Path                       | Repository                                                     | Branch |
+| -------------------------- | -------------------------------------------------------------- | ------ |
+| `submodules/jellyfin/`     | `git@github.com-personal:evertonfxavier/jellyfin-server.git`   | master |
+| `submodules/jellyfin-web/` | `git@github.com-personal:evertonfxavier/jellyfin-web.git`      | master |
 
-Para atualizar os submodules:
+To update submodules:
 
 ```bash
 git submodule update --remote --merge
